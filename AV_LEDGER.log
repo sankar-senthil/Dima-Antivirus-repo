@@ -1,0 +1,2392 @@
+2021-09-20 14:48:15:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-20_12.txt
+2021-09-20 14:48:15:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-20 14:48:15:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-20 14:48:15:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-20 14:48:15:[Kivy        ] v2.0.0
+2021-09-20 14:48:15:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-20 14:48:15:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-20 14:48:15:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-20 14:48:15:[KivyMD      ] v0.104.1
+2021-09-20 14:48:15:[Factory     ] 186 symbols loaded
+2021-09-20 14:48:15:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-20 14:48:16:[Window      ] Provider: sdl2
+2021-09-20 14:48:16:[Window      ] Activate GLES2/ANGLE context
+2021-09-20 14:48:16:[GL          ] Using the "OpenGL" graphics system
+2021-09-20 14:48:16:[GL          ] Backend used <angle_sdl2>
+2021-09-20 14:48:16:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:48:16:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-20 14:48:16:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-20 14:48:16:[GL          ] OpenGL parsed version: 3, 0
+2021-09-20 14:48:16:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:48:16:[GL          ] Texture max size <16384>
+2021-09-20 14:48:16:[GL          ] Texture max units <16>
+2021-09-20 14:48:16:[Window      ] auto add sdl2 input provider
+2021-09-20 14:48:16:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-20 14:48:16:[Text        ] Provider: sdl2
+2021-09-20 14:48:16:[GL          ] NPOT texture support is available
+2021-09-20 14:48:16:[GL          ] Unpack subimage support is available
+2021-09-20 14:48:18:[Base        ] Start application main loop
+2021-09-20 14:48:42:[Clipboard   ] Provider: winctypes
+2021-09-20 14:48:48:Deprecated property "<VariableListProperty name=padding_x>" of object "<Empx.utilskv.OTP_TXTInput object at 0x0000024EFF5264A8>" was accessed, it will be removed in a future version
+2021-09-20 14:49:33:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-20_13.txt
+2021-09-20 14:49:33:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-20 14:49:33:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-20 14:49:33:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-20 14:49:33:[Kivy        ] v2.0.0
+2021-09-20 14:49:33:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-20 14:49:33:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-20 14:49:33:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-20 14:49:33:[KivyMD      ] v0.104.1
+2021-09-20 14:49:33:[Factory     ] 186 symbols loaded
+2021-09-20 14:49:33:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-20 14:49:33:[Window      ] Provider: sdl2
+2021-09-20 14:49:33:[Window      ] Activate GLES2/ANGLE context
+2021-09-20 14:49:33:[GL          ] Using the "OpenGL" graphics system
+2021-09-20 14:49:33:[GL          ] Backend used <angle_sdl2>
+2021-09-20 14:49:33:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:49:33:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-20 14:49:33:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-20 14:49:33:[GL          ] OpenGL parsed version: 3, 0
+2021-09-20 14:49:33:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:49:33:[GL          ] Texture max size <16384>
+2021-09-20 14:49:33:[GL          ] Texture max units <16>
+2021-09-20 14:49:34:[Window      ] auto add sdl2 input provider
+2021-09-20 14:49:34:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-20 14:49:34:[Text        ] Provider: sdl2
+2021-09-20 14:49:34:[GL          ] NPOT texture support is available
+2021-09-20 14:49:34:[GL          ] Unpack subimage support is available
+2021-09-20 14:49:35:[Base        ] Start application main loop
+2021-09-20 14:50:53:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads
+2021-09-20 14:51:24:antivirus_encryptor Method call received.
+2021-09-20 14:51:24:Source File Removed Successfully.
+2021-09-20 14:51:24:antivirus_encryptor Method call received.
+2021-09-20 14:51:24:Source File Removed Successfully.
+2021-09-20 14:51:25:antivirus_encryptor Method call received.
+2021-09-20 14:51:25:Source File Removed Successfully.
+2021-09-20 14:51:26:antivirus_encryptor Method call received.
+2021-09-20 14:51:26:Source File Removed Successfully.
+2021-09-20 14:51:26:antivirus_encryptor Method call received.
+2021-09-20 14:51:26:Source File Removed Successfully.
+2021-09-20 14:52:55:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-20_67.txt
+2021-09-20 14:52:55:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-20 14:52:55:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-20 14:52:55:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-20 14:52:55:[Kivy        ] v2.0.0
+2021-09-20 14:52:55:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-20 14:52:55:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-20 14:52:55:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-20 14:52:55:[KivyMD      ] v0.104.1
+2021-09-20 14:52:55:[Factory     ] 186 symbols loaded
+2021-09-20 14:52:55:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-20 14:52:55:[Window      ] Provider: sdl2
+2021-09-20 14:52:55:[Window      ] Activate GLES2/ANGLE context
+2021-09-20 14:52:55:[GL          ] Using the "OpenGL" graphics system
+2021-09-20 14:52:55:[GL          ] Backend used <angle_sdl2>
+2021-09-20 14:52:55:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:52:55:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-20 14:52:55:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-20 14:52:55:[GL          ] OpenGL parsed version: 3, 0
+2021-09-20 14:52:55:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:52:55:[GL          ] Texture max size <16384>
+2021-09-20 14:52:55:[GL          ] Texture max units <16>
+2021-09-20 14:52:55:[Window      ] auto add sdl2 input provider
+2021-09-20 14:52:55:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-20 14:52:55:[Text        ] Provider: sdl2
+2021-09-20 14:52:55:[GL          ] NPOT texture support is available
+2021-09-20 14:52:56:[GL          ] Unpack subimage support is available
+2021-09-20 14:52:57:[Base        ] Start application main loop
+2021-09-20 14:53:05:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-20_0.txt
+2021-09-20 14:53:05:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-20 14:53:05:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-20 14:53:05:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-20 14:53:05:[Kivy        ] v2.0.0
+2021-09-20 14:53:05:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-20 14:53:05:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-20 14:53:05:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-20 14:53:05:[KivyMD      ] v0.104.1
+2021-09-20 14:53:05:[Factory     ] 186 symbols loaded
+2021-09-20 14:53:05:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-20 14:53:05:[Window      ] Provider: sdl2
+2021-09-20 14:53:05:[Window      ] Activate GLES2/ANGLE context
+2021-09-20 14:53:05:[GL          ] Using the "OpenGL" graphics system
+2021-09-20 14:53:05:[GL          ] Backend used <angle_sdl2>
+2021-09-20 14:53:05:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:53:05:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-20 14:53:05:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-20 14:53:05:[GL          ] OpenGL parsed version: 3, 0
+2021-09-20 14:53:05:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:53:05:[GL          ] Texture max size <16384>
+2021-09-20 14:53:05:[GL          ] Texture max units <16>
+2021-09-20 14:53:05:[Window      ] auto add sdl2 input provider
+2021-09-20 14:53:05:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-20 14:53:05:[Text        ] Provider: sdl2
+2021-09-20 14:53:05:[GL          ] NPOT texture support is available
+2021-09-20 14:53:06:[GL          ] Unpack subimage support is available
+2021-09-20 14:53:07:[Base        ] Start application main loop
+2021-09-20 14:53:33:[Custom-scanPath ] D:\Dima_Antivirus\DimaAV_TotalSecurity\WINDOWS-BUILD\DIMA_Antivirus_Setup\DIMA_Antivirus_Setup\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-20 14:54:05:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-20_1.txt
+2021-09-20 14:54:05:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-20 14:54:05:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-20 14:54:05:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-20 14:54:05:[Kivy        ] v2.0.0
+2021-09-20 14:54:05:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-20 14:54:05:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-20 14:54:05:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-20 14:54:05:[KivyMD      ] v0.104.1
+2021-09-20 14:54:05:[Factory     ] 186 symbols loaded
+2021-09-20 14:54:05:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-20 14:54:06:[Window      ] Provider: sdl2
+2021-09-20 14:54:06:[Window      ] Activate GLES2/ANGLE context
+2021-09-20 14:54:06:[GL          ] Using the "OpenGL" graphics system
+2021-09-20 14:54:06:[GL          ] Backend used <angle_sdl2>
+2021-09-20 14:54:06:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:54:06:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-20 14:54:06:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-20 14:54:06:[GL          ] OpenGL parsed version: 3, 0
+2021-09-20 14:54:06:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-20 14:54:06:[GL          ] Texture max size <16384>
+2021-09-20 14:54:06:[GL          ] Texture max units <16>
+2021-09-20 14:54:06:[Window      ] auto add sdl2 input provider
+2021-09-20 14:54:06:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-20 14:54:06:[Text        ] Provider: sdl2
+2021-09-20 14:54:06:[GL          ] NPOT texture support is available
+2021-09-20 14:54:06:[GL          ] Unpack subimage support is available
+2021-09-20 14:54:08:[Base        ] Start application main loop
+2021-09-20 14:54:16:[Custom-scanPath ] D:\Dima_Antivirus\DimaAV_TotalSecurity\WINDOWS-BUILD\DIMA_Antivirus_Setup\DIMA_Antivirus_Setup\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 10:17:22:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_10.txt
+2021-09-29 10:17:22:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:17:22:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:17:22:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:17:22:[Kivy        ] v2.0.0
+2021-09-29 10:17:22:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:17:22:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:17:22:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:17:22:[KivyMD      ] v0.104.1
+2021-09-29 10:17:22:[Factory     ] 186 symbols loaded
+2021-09-29 10:17:22:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:17:22:[Window      ] Provider: sdl2
+2021-09-29 10:17:22:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:17:23:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:17:23:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:17:23:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:17:23:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:17:23:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:17:23:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:17:23:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:17:23:[GL          ] Texture max size <16384>
+2021-09-29 10:17:23:[GL          ] Texture max units <16>
+2021-09-29 10:17:23:[Window      ] auto add sdl2 input provider
+2021-09-29 10:17:23:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:17:23:[Text        ] Provider: sdl2
+2021-09-29 10:17:23:[GL          ] NPOT texture support is available
+2021-09-29 10:17:23:[GL          ] Unpack subimage support is available
+2021-09-29 10:17:25:[Base        ] Start application main loop
+2021-09-29 10:17:35:Full-Scan Process Started !!
+2021-09-29 10:17:35:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 10:18:58:Internet-Connection Error
+2021-09-29 10:19:33:Internet-Connection Error
+2021-09-29 10:20:01:Internet-Connection Error
+2021-09-29 10:21:09:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 10:21:09:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:21:09:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:21:09:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:21:09:[Kivy        ] v2.0.0
+2021-09-29 10:21:09:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:21:09:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:21:09:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:21:09:[KivyMD      ] v0.104.1
+2021-09-29 10:21:09:[Factory     ] 186 symbols loaded
+2021-09-29 10:21:09:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:21:10:[Window      ] Provider: sdl2
+2021-09-29 10:21:10:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:21:10:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:21:10:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:21:10:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:21:10:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:21:10:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:21:10:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:21:10:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:21:10:[GL          ] Texture max size <16384>
+2021-09-29 10:21:10:[GL          ] Texture max units <16>
+2021-09-29 10:21:10:[Window      ] auto add sdl2 input provider
+2021-09-29 10:21:10:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:21:10:[Text        ] Provider: sdl2
+2021-09-29 10:21:10:[GL          ] NPOT texture support is available
+2021-09-29 10:21:10:[GL          ] Unpack subimage support is available
+2021-09-29 10:21:12:[Base        ] Start application main loop
+2021-09-29 10:21:14:Full-Scan Process Started !!
+2021-09-29 10:21:14:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 10:21:52:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 10:21:52:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:21:52:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:21:52:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:21:52:[Kivy        ] v2.0.0
+2021-09-29 10:21:52:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:21:52:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:21:52:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:21:52:[Logger      ] Purge log fired. Analysing...
+2021-09-29 10:21:52:[Logger      ] Purge finished!
+2021-09-29 10:21:52:[KivyMD      ] v0.104.1
+2021-09-29 10:21:52:[Factory     ] 186 symbols loaded
+2021-09-29 10:21:52:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:21:52:[Window      ] Provider: sdl2
+2021-09-29 10:21:52:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:21:52:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:21:52:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:21:52:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:21:52:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:21:52:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:21:52:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:21:52:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:21:52:[GL          ] Texture max size <16384>
+2021-09-29 10:21:52:[GL          ] Texture max units <16>
+2021-09-29 10:21:53:[Window      ] auto add sdl2 input provider
+2021-09-29 10:21:53:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:21:53:[Text        ] Provider: sdl2
+2021-09-29 10:21:53:[GL          ] NPOT texture support is available
+2021-09-29 10:21:53:[GL          ] Unpack subimage support is available
+2021-09-29 10:21:54:[Base        ] Start application main loop
+2021-09-29 10:22:28:[Clipboard   ] Provider: winctypes
+2021-09-29 10:29:59:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_11.txt
+2021-09-29 10:29:59:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:29:59:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:29:59:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:29:59:[Kivy        ] v2.0.0
+2021-09-29 10:29:59:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:29:59:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:29:59:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:29:59:[KivyMD      ] v0.104.1
+2021-09-29 10:29:59:[Factory     ] 186 symbols loaded
+2021-09-29 10:29:59:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:29:59:[Window      ] Provider: sdl2
+2021-09-29 10:29:59:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:29:59:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:29:59:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:29:59:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:29:59:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:29:59:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:29:59:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:29:59:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:29:59:[GL          ] Texture max size <16384>
+2021-09-29 10:29:59:[GL          ] Texture max units <16>
+2021-09-29 10:29:59:[Window      ] auto add sdl2 input provider
+2021-09-29 10:29:59:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:29:59:[Text        ] Provider: sdl2
+2021-09-29 10:29:59:[GL          ] NPOT texture support is available
+2021-09-29 10:30:00:[GL          ] Unpack subimage support is available
+2021-09-29 10:30:01:[Base        ] Start application main loop
+2021-09-29 10:30:25:[Clipboard   ] Provider: winctypes
+2021-09-29 10:32:20:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_12.txt
+2021-09-29 10:32:20:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:32:20:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:32:20:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:32:20:[Kivy        ] v2.0.0
+2021-09-29 10:32:20:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:32:20:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:32:20:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:32:20:[KivyMD      ] v0.104.1
+2021-09-29 10:32:20:[Factory     ] 186 symbols loaded
+2021-09-29 10:32:21:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:32:21:[Window      ] Provider: sdl2
+2021-09-29 10:32:21:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:32:21:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:32:21:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:32:21:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:32:21:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:32:21:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:32:21:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:32:21:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:32:21:[GL          ] Texture max size <16384>
+2021-09-29 10:32:21:[GL          ] Texture max units <16>
+2021-09-29 10:32:21:[Window      ] auto add sdl2 input provider
+2021-09-29 10:32:21:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:32:21:[Text        ] Provider: sdl2
+2021-09-29 10:32:21:[GL          ] NPOT texture support is available
+2021-09-29 10:32:22:[GL          ] Unpack subimage support is available
+2021-09-29 10:32:23:[Base        ] Start application main loop
+2021-09-29 10:32:34:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_13.txt
+2021-09-29 10:32:34:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:32:34:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:32:34:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:32:34:[Kivy        ] v2.0.0
+2021-09-29 10:32:34:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:32:34:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:32:34:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:32:34:[KivyMD      ] v0.104.1
+2021-09-29 10:32:34:[Factory     ] 186 symbols loaded
+2021-09-29 10:32:34:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:32:35:[Window      ] Provider: sdl2
+2021-09-29 10:32:35:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:32:35:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:32:35:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:32:35:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:32:35:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:32:35:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:32:35:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:32:35:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:32:35:[GL          ] Texture max size <16384>
+2021-09-29 10:32:35:[GL          ] Texture max units <16>
+2021-09-29 10:32:35:[Window      ] auto add sdl2 input provider
+2021-09-29 10:32:35:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:32:35:[Text        ] Provider: sdl2
+2021-09-29 10:32:35:[GL          ] NPOT texture support is available
+2021-09-29 10:32:35:[GL          ] Unpack subimage support is available
+2021-09-29 10:32:37:[Base        ] Start application main loop
+2021-09-29 10:32:43:[Clipboard   ] Provider: winctypes
+2021-09-29 10:33:05:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_14.txt
+2021-09-29 10:33:05:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:33:05:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:33:05:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:33:05:[Kivy        ] v2.0.0
+2021-09-29 10:33:05:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:33:05:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:33:05:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:33:05:[KivyMD      ] v0.104.1
+2021-09-29 10:33:05:[Factory     ] 186 symbols loaded
+2021-09-29 10:33:05:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:33:05:[Window      ] Provider: sdl2
+2021-09-29 10:33:05:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:33:05:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:33:05:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:33:05:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:33:05:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:33:05:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:33:05:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:33:05:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:33:05:[GL          ] Texture max size <16384>
+2021-09-29 10:33:05:[GL          ] Texture max units <16>
+2021-09-29 10:33:05:[Window      ] auto add sdl2 input provider
+2021-09-29 10:33:05:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:33:05:[Text        ] Provider: sdl2
+2021-09-29 10:33:05:[GL          ] NPOT texture support is available
+2021-09-29 10:33:06:[GL          ] Unpack subimage support is available
+2021-09-29 10:33:07:[Base        ] Start application main loop
+2021-09-29 10:33:10:[Clipboard   ] Provider: winctypes
+2021-09-29 10:33:32:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_15.txt
+2021-09-29 10:33:32:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:33:32:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:33:32:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:33:32:[Kivy        ] v2.0.0
+2021-09-29 10:33:32:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:33:32:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:33:32:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:33:32:[KivyMD      ] v0.104.1
+2021-09-29 10:33:32:[Factory     ] 186 symbols loaded
+2021-09-29 10:33:32:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:33:32:[Window      ] Provider: sdl2
+2021-09-29 10:33:32:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:33:33:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:33:33:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:33:33:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:33:33:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:33:33:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:33:33:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:33:33:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:33:33:[GL          ] Texture max size <16384>
+2021-09-29 10:33:33:[GL          ] Texture max units <16>
+2021-09-29 10:33:33:[Window      ] auto add sdl2 input provider
+2021-09-29 10:33:33:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:33:33:[Text        ] Provider: sdl2
+2021-09-29 10:33:33:[GL          ] NPOT texture support is available
+2021-09-29 10:33:33:[GL          ] Unpack subimage support is available
+2021-09-29 10:33:35:[Base        ] Start application main loop
+2021-09-29 10:33:45:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_16.txt
+2021-09-29 10:33:45:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:33:45:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:33:45:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:33:45:[Kivy        ] v2.0.0
+2021-09-29 10:33:45:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:33:45:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:33:45:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:33:45:[KivyMD      ] v0.104.1
+2021-09-29 10:33:45:[Factory     ] 186 symbols loaded
+2021-09-29 10:33:45:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:33:45:[Window      ] Provider: sdl2
+2021-09-29 10:33:45:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:33:45:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:33:45:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:33:45:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:33:45:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:33:45:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:33:45:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:33:45:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:33:45:[GL          ] Texture max size <16384>
+2021-09-29 10:33:45:[GL          ] Texture max units <16>
+2021-09-29 10:33:45:[Window      ] auto add sdl2 input provider
+2021-09-29 10:33:45:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:33:45:[Text        ] Provider: sdl2
+2021-09-29 10:33:45:[GL          ] NPOT texture support is available
+2021-09-29 10:33:46:[GL          ] Unpack subimage support is available
+2021-09-29 10:33:47:[Base        ] Start application main loop
+2021-09-29 10:33:54:[Clipboard   ] Provider: winctypes
+2021-09-29 10:34:03:Deprecated property "<VariableListProperty name=padding_x>" of object "<Empx.utilskv.OTP_TXTInput object at 0x000001367A20E438>" was accessed, it will be removed in a future version
+2021-09-29 10:40:29:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_17.txt
+2021-09-29 10:40:29:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 10:40:29:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 10:40:29:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 10:40:29:[Kivy        ] v2.0.0
+2021-09-29 10:40:29:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 10:40:29:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 10:40:29:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 10:40:29:[KivyMD      ] v0.104.1
+2021-09-29 10:40:29:[Factory     ] 186 symbols loaded
+2021-09-29 10:40:30:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 10:40:31:[Window      ] Provider: sdl2
+2021-09-29 10:40:31:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 10:40:42:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 10:40:42:[GL          ] Backend used <angle_sdl2>
+2021-09-29 10:40:42:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:40:42:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 10:40:42:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 10:40:42:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 10:40:42:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 10:40:43:[GL          ] Texture max size <16384>
+2021-09-29 10:40:43:[GL          ] Texture max units <16>
+2021-09-29 10:40:43:[Window      ] auto add sdl2 input provider
+2021-09-29 10:40:44:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 10:40:44:[Text        ] Provider: sdl2
+2021-09-29 10:40:44:[GL          ] NPOT texture support is available
+2021-09-29 10:40:45:[GL          ] Unpack subimage support is available
+2021-09-29 10:40:47:[Base        ] Start application main loop
+2021-09-29 11:25:58:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_27.txt
+2021-09-29 11:25:58:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 11:25:58:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 11:25:58:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 11:25:58:[Kivy        ] v2.0.0
+2021-09-29 11:25:58:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 11:25:58:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 11:25:58:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 11:25:58:[KivyMD      ] v0.104.1
+2021-09-29 11:25:58:[Factory     ] 186 symbols loaded
+2021-09-29 11:25:58:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 11:25:58:[Window      ] Provider: sdl2
+2021-09-29 11:25:58:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 11:25:58:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 11:25:58:[GL          ] Backend used <angle_sdl2>
+2021-09-29 11:25:58:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 11:25:58:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 11:25:58:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 11:25:58:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 11:25:58:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 11:25:58:[GL          ] Texture max size <16384>
+2021-09-29 11:25:58:[GL          ] Texture max units <16>
+2021-09-29 11:25:58:[Window      ] auto add sdl2 input provider
+2021-09-29 11:25:58:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 11:25:58:[Text        ] Provider: sdl2
+2021-09-29 11:25:58:[GL          ] NPOT texture support is available
+2021-09-29 11:25:59:[GL          ] Unpack subimage support is available
+2021-09-29 11:26:00:[Base        ] Start application main loop
+2021-09-29 11:26:26:[Clipboard   ] Provider: winctypes
+2021-09-29 11:26:32:Deprecated property "<VariableListProperty name=padding_x>" of object "<Empx.utilskv.OTP_TXTInput object at 0x000001D46C1695F8>" was accessed, it will be removed in a future version
+2021-09-29 11:30:11:Internet-Connection Error
+2021-09-29 11:30:26:Internet-Connection Error
+2021-09-29 11:32:28:Internet-Connection Error
+2021-09-29 11:53:53:Internet-Connection Error
+2021-09-29 11:56:12:stderr: Exception in thread Thread-23:
+2021-09-29 11:56:12:stderr: Traceback (most recent call last):
+2021-09-29 11:56:12:stderr:   File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\threading.py", line 917, in _bootstrap_inner
+2021-09-29 11:56:12:stderr:     self.run()
+2021-09-29 11:56:12:stderr:   File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\threading.py", line 865, in run
+2021-09-29 11:56:12:stderr:     self._target(*self._args, **self._kwargs)
+2021-09-29 11:56:12:stderr:   File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\win10toast\__init__.py", line 106, in _show_toast
+2021-09-29 11:56:12:stderr:     Shell_NotifyIcon(NIM_ADD, nid)
+2021-09-29 11:56:12:stderr: pywintypes.error: (-2147467259, 'Shell_NotifyIcon', 'Unspecified error')
+2021-09-29 11:56:12:stderr: 
+2021-09-29 11:56:14:[Base        ] Leaving application in progress...
+2021-09-29 11:56:14:ERROR-MESSAGE
+Traceback (most recent call last):
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 242, in create_handler
+    return eval(value, idmap), bound_list
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120, in <module>
+    text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+TypeError: object of type 'int' has no len()
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 697, in _apply_rule
+    rctx['ids'])
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 247, in create_handler
+    cause=tb)
+kivy.lang.builder.BuilderException: Parser: File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120:
+...
+   1118:            pos_hint:{"x":0.02,"y":0.27}
+   1119:            font_size:self.height/4.5
+>> 1120:            text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+   1121:            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+   1122:
+...
+TypeError: object of type 'int' has no len()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 242, in create_handler
+    return eval(value, idmap), bound_list
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120, in <module>
+    text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\antivirus_gui.py", line 1492, in <module>
+    AntivirusSoftware().run()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 391, in idle
+    self.dispatch_input()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 342, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 308, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\_event.pyx", line 705, in kivy._event.EventDispatcher.dispatch
+  File "kivy\_event.pyx", line 1248, in kivy._event.EventObservers.dispatch
+  File "kivy\_event.pyx", line 1132, in kivy._event.EventObservers._dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 57, in custom_callback
+    exec(__kvlang__.co_value, idmap)
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 698, in <module>
+    object_data = Factory.license_popup()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\modalview.py", line 187, in __init__
+    super(ModalView, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\anchorlayout.py", line 68, in __init__
+    super(AnchorLayout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+    super(Layout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 361, in __init__
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 465, in apply_class_lang_rules
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 543, in apply
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 712, in _apply_rule
+    e), cause=tb)
+kivy.lang.builder.BuilderException: Parser: File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120:
+...
+   1118:            pos_hint:{"x":0.02,"y":0.27}
+   1119:            font_size:self.height/4.5
+>> 1120:            text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+   1121:            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+   1122:
+...
+BuilderException: Parser: File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120:
+...
+   1118:            pos_hint:{"x":0.02,"y":0.27}
+   1119:            font_size:self.height/4.5
+>> 1120:            text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+   1121:            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+   1122:
+...
+TypeError: object of type 'int' has no len()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 242, in create_handler
+    return eval(value, idmap), bound_list
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120, in <module>
+    text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 697, in _apply_rule
+    rctx['ids'])
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 247, in create_handler
+    cause=tb)
+
+2021-09-29 12:02:09:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_28.txt
+2021-09-29 12:02:09:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 12:02:09:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 12:02:09:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 12:02:09:[Kivy        ] v2.0.0
+2021-09-29 12:02:09:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 12:02:09:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 12:02:09:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 12:02:09:[KivyMD      ] v0.104.1
+2021-09-29 12:02:09:[Factory     ] 186 symbols loaded
+2021-09-29 12:02:09:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 12:02:09:[Window      ] Provider: sdl2
+2021-09-29 12:02:09:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 12:02:09:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 12:02:09:[GL          ] Backend used <angle_sdl2>
+2021-09-29 12:02:09:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:02:09:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 12:02:09:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 12:02:09:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 12:02:09:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:02:09:[GL          ] Texture max size <16384>
+2021-09-29 12:02:09:[GL          ] Texture max units <16>
+2021-09-29 12:02:09:[Window      ] auto add sdl2 input provider
+2021-09-29 12:02:09:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 12:02:09:[Text        ] Provider: sdl2
+2021-09-29 12:02:09:[GL          ] NPOT texture support is available
+2021-09-29 12:02:10:[GL          ] Unpack subimage support is available
+2021-09-29 12:02:11:[Base        ] Start application main loop
+2021-09-29 12:02:44:[Clipboard   ] Provider: winctypes
+2021-09-29 12:02:50:Deprecated property "<VariableListProperty name=padding_x>" of object "<Empx.utilskv.OTP_TXTInput object at 0x000002952FF7E978>" was accessed, it will be removed in a future version
+2021-09-29 12:04:09:[Base        ] Leaving application in progress...
+2021-09-29 12:04:09:ERROR-MESSAGE
+Traceback (most recent call last):
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 242, in create_handler
+    return eval(value, idmap), bound_list
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120, in <module>
+    text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+TypeError: object of type 'int' has no len()
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 697, in _apply_rule
+    rctx['ids'])
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 247, in create_handler
+    cause=tb)
+kivy.lang.builder.BuilderException: Parser: File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120:
+...
+   1118:            pos_hint:{"x":0.02,"y":0.27}
+   1119:            font_size:self.height/4.5
+>> 1120:            text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+   1121:            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+   1122:
+...
+TypeError: object of type 'int' has no len()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 242, in create_handler
+    return eval(value, idmap), bound_list
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120, in <module>
+    text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\antivirus_gui.py", line 1492, in <module>
+    AntivirusSoftware().run()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 391, in idle
+    self.dispatch_input()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 342, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 308, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\_event.pyx", line 705, in kivy._event.EventDispatcher.dispatch
+  File "kivy\_event.pyx", line 1248, in kivy._event.EventObservers.dispatch
+  File "kivy\_event.pyx", line 1132, in kivy._event.EventObservers._dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 57, in custom_callback
+    exec(__kvlang__.co_value, idmap)
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 698, in <module>
+    object_data = Factory.license_popup()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\modalview.py", line 187, in __init__
+    super(ModalView, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\anchorlayout.py", line 68, in __init__
+    super(AnchorLayout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+    super(Layout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 361, in __init__
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 465, in apply_class_lang_rules
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 543, in apply
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 712, in _apply_rule
+    e), cause=tb)
+kivy.lang.builder.BuilderException: Parser: File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120:
+...
+   1118:            pos_hint:{"x":0.02,"y":0.27}
+   1119:            font_size:self.height/4.5
+>> 1120:            text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+   1121:            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+   1122:
+...
+BuilderException: Parser: File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120:
+...
+   1118:            pos_hint:{"x":0.02,"y":0.27}
+   1119:            font_size:self.height/4.5
+>> 1120:            text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+   1121:            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+   1122:
+...
+TypeError: object of type 'int' has no len()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 242, in create_handler
+    return eval(value, idmap), bound_list
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 1120, in <module>
+    text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 697, in _apply_rule
+    rctx['ids'])
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 247, in create_handler
+    cause=tb)
+
+2021-09-29 12:05:50:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_29.txt
+2021-09-29 12:05:50:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 12:05:50:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 12:05:50:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 12:05:50:[Kivy        ] v2.0.0
+2021-09-29 12:05:50:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 12:05:50:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 12:05:50:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 12:05:50:[KivyMD      ] v0.104.1
+2021-09-29 12:05:50:[Factory     ] 186 symbols loaded
+2021-09-29 12:05:50:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 12:05:50:[Window      ] Provider: sdl2
+2021-09-29 12:05:50:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 12:05:50:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 12:05:50:[GL          ] Backend used <angle_sdl2>
+2021-09-29 12:05:50:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:05:50:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 12:05:50:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 12:05:50:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 12:05:50:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:05:50:[GL          ] Texture max size <16384>
+2021-09-29 12:05:50:[GL          ] Texture max units <16>
+2021-09-29 12:05:50:[Window      ] auto add sdl2 input provider
+2021-09-29 12:05:50:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 12:05:50:[Text        ] Provider: sdl2
+2021-09-29 12:05:50:[GL          ] NPOT texture support is available
+2021-09-29 12:05:51:[GL          ] Unpack subimage support is available
+2021-09-29 12:05:52:[Base        ] Start application main loop
+2021-09-29 12:07:07:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_30.txt
+2021-09-29 12:07:07:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 12:07:07:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 12:07:07:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 12:07:07:[Kivy        ] v2.0.0
+2021-09-29 12:07:07:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 12:07:07:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 12:07:07:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 12:07:07:[KivyMD      ] v0.104.1
+2021-09-29 12:07:07:[Factory     ] 186 symbols loaded
+2021-09-29 12:07:07:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 12:07:07:[Window      ] Provider: sdl2
+2021-09-29 12:07:08:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 12:07:08:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 12:07:08:[GL          ] Backend used <angle_sdl2>
+2021-09-29 12:07:08:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:07:08:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 12:07:08:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 12:07:08:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 12:07:08:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:07:08:[GL          ] Texture max size <16384>
+2021-09-29 12:07:08:[GL          ] Texture max units <16>
+2021-09-29 12:07:08:[Window      ] auto add sdl2 input provider
+2021-09-29 12:07:08:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 12:07:08:[Text        ] Provider: sdl2
+2021-09-29 12:07:08:[GL          ] NPOT texture support is available
+2021-09-29 12:07:08:[GL          ] Unpack subimage support is available
+2021-09-29 12:07:10:[Base        ] Start application main loop
+2021-09-29 12:07:24:[Clipboard   ] Provider: winctypes
+2021-09-29 12:07:30:Deprecated property "<VariableListProperty name=padding_x>" of object "<Empx.utilskv.OTP_TXTInput object at 0x000001FB2820B668>" was accessed, it will be removed in a future version
+2021-09-29 12:10:35:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_31.txt
+2021-09-29 12:10:35:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 12:10:35:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 12:10:35:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 12:10:35:[Kivy        ] v2.0.0
+2021-09-29 12:10:35:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 12:10:35:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 12:10:35:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 12:10:35:[KivyMD      ] v0.104.1
+2021-09-29 12:10:35:[Factory     ] 186 symbols loaded
+2021-09-29 12:10:35:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 12:10:36:[Window      ] Provider: sdl2
+2021-09-29 12:10:36:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 12:10:36:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 12:10:36:[GL          ] Backend used <angle_sdl2>
+2021-09-29 12:10:36:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:10:36:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 12:10:36:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 12:10:36:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 12:10:36:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:10:36:[GL          ] Texture max size <16384>
+2021-09-29 12:10:36:[GL          ] Texture max units <16>
+2021-09-29 12:10:36:[Window      ] auto add sdl2 input provider
+2021-09-29 12:10:36:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 12:10:36:[Text        ] Provider: sdl2
+2021-09-29 12:10:36:[GL          ] NPOT texture support is available
+2021-09-29 12:10:36:[GL          ] Unpack subimage support is available
+2021-09-29 12:10:38:[Base        ] Start application main loop
+2021-09-29 12:10:52:[Clipboard   ] Provider: winctypes
+2021-09-29 12:10:59:Deprecated property "<VariableListProperty name=padding_x>" of object "<Empx.utilskv.OTP_TXTInput object at 0x000001F4B516A668>" was accessed, it will be removed in a future version
+2021-09-29 12:11:54:Full-Scan Process Started !!
+2021-09-29 12:11:54:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 12:13:23:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_32.txt
+2021-09-29 12:13:23:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 12:13:23:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 12:13:23:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 12:13:23:[Kivy        ] v2.0.0
+2021-09-29 12:13:23:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 12:13:23:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 12:13:23:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 12:13:23:[KivyMD      ] v0.104.1
+2021-09-29 12:13:23:[Factory     ] 186 symbols loaded
+2021-09-29 12:13:23:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 12:13:23:[Window      ] Provider: sdl2
+2021-09-29 12:13:23:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 12:13:23:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 12:13:23:[GL          ] Backend used <angle_sdl2>
+2021-09-29 12:13:23:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:13:23:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 12:13:23:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 12:13:23:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 12:13:23:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:13:23:[GL          ] Texture max size <16384>
+2021-09-29 12:13:23:[GL          ] Texture max units <16>
+2021-09-29 12:13:23:[Window      ] auto add sdl2 input provider
+2021-09-29 12:13:23:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 12:13:23:[Text        ] Provider: sdl2
+2021-09-29 12:13:23:[GL          ] NPOT texture support is available
+2021-09-29 12:13:24:[GL          ] Unpack subimage support is available
+2021-09-29 12:13:25:[Base        ] Start application main loop
+2021-09-29 12:13:26:Full-Scan Process Started !!
+2021-09-29 12:13:27:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 12:13:48:Full-Scan Process Started !!
+2021-09-29 12:13:48:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 12:13:51:Full-Scan Process Started !!
+2021-09-29 12:13:51:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 12:17:52:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\malwares.zip
+2021-09-29 12:18:35:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 12:18:35:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 12:18:35:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 12:18:35:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 12:18:35:[Kivy        ] v2.0.0
+2021-09-29 12:18:35:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 12:18:35:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 12:18:35:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 12:18:35:[KivyMD      ] v0.104.1
+2021-09-29 12:18:35:[Factory     ] 186 symbols loaded
+2021-09-29 12:18:35:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 12:18:35:[Window      ] Provider: sdl2
+2021-09-29 12:18:35:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 12:18:35:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 12:18:35:[GL          ] Backend used <angle_sdl2>
+2021-09-29 12:18:35:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:18:35:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 12:18:35:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 12:18:35:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 12:18:35:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 12:18:35:[GL          ] Texture max size <16384>
+2021-09-29 12:18:35:[GL          ] Texture max units <16>
+2021-09-29 12:18:35:[Window      ] auto add sdl2 input provider
+2021-09-29 12:18:35:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 12:18:35:[Text        ] Provider: sdl2
+2021-09-29 12:18:36:[GL          ] NPOT texture support is available
+2021-09-29 12:18:36:[GL          ] Unpack subimage support is available
+2021-09-29 12:18:37:[Base        ] Start application main loop
+2021-09-29 12:18:43:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\malwares.zip
+2021-09-29 12:18:46:antivirus_encryptor Method call received.
+2021-09-29 12:19:16:[Exception in pyzipper-AES ] [WinError 32] The process cannot access the file because it is being used by another process: 'C:/Users/Sankar_Senthil/Downloads/malwares.zip'
+Traceback (most recent call last):
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\Empx\utils.py", line 628, in antivirus_encryptor
+    os.remove(source_file)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:/Users/Sankar_Senthil/Downloads/malwares.zip'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\Empx\utils.py", line 632, in antivirus_encryptor
+    os.remove(source_file)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:/Users/Sankar_Senthil/Downloads/malwares.zip'
+2021-09-29 12:20:25:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\malwares.zip
+2021-09-29 12:20:28:antivirus_encryptor Method call received.
+2021-09-29 12:20:58:Source File Removed Successfully.
+2021-09-29 12:26:42:[NEW External Device Found ] E:/
+2021-09-29 12:26:42:[usbScan method call received.. E]/
+2021-09-29 12:28:57:Full-Scan Process Started !!
+2021-09-29 12:28:57:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 12:38:17:Internet-Connection Error
+2021-09-29 14:56:06:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 14:56:06:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 14:56:06:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 14:56:06:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 14:56:06:[Kivy        ] v2.0.0
+2021-09-29 14:56:06:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 14:56:06:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 14:56:06:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 14:56:06:[KivyMD      ] v0.104.1
+2021-09-29 14:56:06:[Factory     ] 186 symbols loaded
+2021-09-29 14:56:07:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 14:56:07:[Window      ] Provider: sdl2
+2021-09-29 14:56:07:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 14:56:07:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 14:56:07:[GL          ] Backend used <angle_sdl2>
+2021-09-29 14:56:07:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 14:56:07:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 14:56:07:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 14:56:07:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 14:56:07:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 14:56:07:[GL          ] Texture max size <16384>
+2021-09-29 14:56:07:[GL          ] Texture max units <16>
+2021-09-29 14:56:07:[Window      ] auto add sdl2 input provider
+2021-09-29 14:56:07:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 14:56:07:[Text        ] Provider: sdl2
+2021-09-29 14:56:07:[GL          ] NPOT texture support is available
+2021-09-29 14:56:07:[GL          ] Unpack subimage support is available
+2021-09-29 14:56:09:[Base        ] Start application main loop
+2021-09-29 14:57:43:Full-Scan Process Started !!
+2021-09-29 14:57:43:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 14:58:18:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 14:58:18:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 14:58:18:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 14:58:18:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 14:58:18:[Kivy        ] v2.0.0
+2021-09-29 14:58:18:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 14:58:18:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 14:58:18:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 14:58:18:[KivyMD      ] v0.104.1
+2021-09-29 14:58:18:[Factory     ] 186 symbols loaded
+2021-09-29 14:58:18:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 14:58:18:[Window      ] Provider: sdl2
+2021-09-29 14:58:18:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 14:58:18:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 14:58:18:[GL          ] Backend used <angle_sdl2>
+2021-09-29 14:58:18:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 14:58:18:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 14:58:18:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 14:58:18:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 14:58:18:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 14:58:18:[GL          ] Texture max size <16384>
+2021-09-29 14:58:18:[GL          ] Texture max units <16>
+2021-09-29 14:58:18:[Window      ] auto add sdl2 input provider
+2021-09-29 14:58:18:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 14:58:18:[Text        ] Provider: sdl2
+2021-09-29 14:58:18:[GL          ] NPOT texture support is available
+2021-09-29 14:58:19:[GL          ] Unpack subimage support is available
+2021-09-29 14:58:20:[Base        ] Start application main loop
+2021-09-29 14:58:22:Full-Scan Process Started !!
+2021-09-29 14:58:22:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-29 15:02:30:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 15:02:30:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 15:02:30:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 15:02:30:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 15:02:30:[Kivy        ] v2.0.0
+2021-09-29 15:02:30:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 15:02:30:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 15:02:30:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 15:02:30:[KivyMD      ] v0.104.1
+2021-09-29 15:02:30:[Factory     ] 186 symbols loaded
+2021-09-29 15:02:30:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 15:02:30:[Window      ] Provider: sdl2
+2021-09-29 15:02:30:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 15:02:30:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 15:02:30:[GL          ] Backend used <angle_sdl2>
+2021-09-29 15:02:30:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:02:30:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 15:02:30:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 15:02:30:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 15:02:30:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:02:30:[GL          ] Texture max size <16384>
+2021-09-29 15:02:30:[GL          ] Texture max units <16>
+2021-09-29 15:02:30:[Window      ] auto add sdl2 input provider
+2021-09-29 15:02:30:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 15:02:30:[Text        ] Provider: sdl2
+2021-09-29 15:02:30:[GL          ] NPOT texture support is available
+2021-09-29 15:02:31:[GL          ] Unpack subimage support is available
+2021-09-29 15:02:32:[Base        ] Start application main loop
+2021-09-29 15:02:51:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\Gemunu_Libre.zip
+2021-09-29 15:05:35:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_10.txt
+2021-09-29 15:05:35:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 15:05:35:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 15:05:35:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 15:05:35:[Kivy        ] v2.0.0
+2021-09-29 15:05:35:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 15:05:35:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 15:05:35:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 15:05:35:[KivyMD      ] v0.104.1
+2021-09-29 15:05:35:[Factory     ] 186 symbols loaded
+2021-09-29 15:05:35:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 15:05:35:[Window      ] Provider: sdl2
+2021-09-29 15:05:35:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 15:05:35:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 15:05:35:[GL          ] Backend used <angle_sdl2>
+2021-09-29 15:05:35:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:05:35:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 15:05:35:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 15:05:35:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 15:05:35:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:05:35:[GL          ] Texture max size <16384>
+2021-09-29 15:05:35:[GL          ] Texture max units <16>
+2021-09-29 15:05:35:[Window      ] auto add sdl2 input provider
+2021-09-29 15:05:35:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 15:05:35:[Text        ] Provider: sdl2
+2021-09-29 15:05:35:[GL          ] NPOT texture support is available
+2021-09-29 15:05:36:[GL          ] Unpack subimage support is available
+2021-09-29 15:05:37:[Base        ] Start application main loop
+2021-09-29 15:05:47:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\Screenshot (35).zip
+2021-09-29 15:07:25:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 15:07:25:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 15:07:25:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 15:07:25:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 15:07:25:[Kivy        ] v2.0.0
+2021-09-29 15:07:25:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 15:07:25:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 15:07:25:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 15:07:25:[KivyMD      ] v0.104.1
+2021-09-29 15:07:25:[Factory     ] 186 symbols loaded
+2021-09-29 15:07:25:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 15:07:25:[Window      ] Provider: sdl2
+2021-09-29 15:07:25:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 15:07:25:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 15:07:25:[GL          ] Backend used <angle_sdl2>
+2021-09-29 15:07:25:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:07:25:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 15:07:25:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 15:07:25:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 15:07:25:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:07:25:[GL          ] Texture max size <16384>
+2021-09-29 15:07:25:[GL          ] Texture max units <16>
+2021-09-29 15:07:25:[Window      ] auto add sdl2 input provider
+2021-09-29 15:07:25:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 15:07:25:[Text        ] Provider: sdl2
+2021-09-29 15:07:25:[GL          ] NPOT texture support is available
+2021-09-29 15:07:26:[GL          ] Unpack subimage support is available
+2021-09-29 15:07:27:[Base        ] Start application main loop
+2021-09-29 15:07:34:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\Screenshot (35).zip
+2021-09-29 15:08:07:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 15:08:07:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 15:08:07:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 15:08:07:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 15:08:07:[Kivy        ] v2.0.0
+2021-09-29 15:08:07:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 15:08:07:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 15:08:07:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 15:08:07:[KivyMD      ] v0.104.1
+2021-09-29 15:08:07:[Factory     ] 186 symbols loaded
+2021-09-29 15:08:07:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 15:08:07:[Window      ] Provider: sdl2
+2021-09-29 15:08:07:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 15:08:07:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 15:08:07:[GL          ] Backend used <angle_sdl2>
+2021-09-29 15:08:07:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:08:07:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 15:08:07:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 15:08:07:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 15:08:07:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:08:07:[GL          ] Texture max size <16384>
+2021-09-29 15:08:07:[GL          ] Texture max units <16>
+2021-09-29 15:08:07:[Window      ] auto add sdl2 input provider
+2021-09-29 15:08:07:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 15:08:07:[Text        ] Provider: sdl2
+2021-09-29 15:08:07:[GL          ] NPOT texture support is available
+2021-09-29 15:08:08:[GL          ] Unpack subimage support is available
+2021-09-29 15:08:09:[Base        ] Start application main loop
+2021-09-29 15:08:16:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\Screenshot (35).zip
+2021-09-29 15:10:54:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 15:10:54:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 15:10:54:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 15:10:54:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 15:10:54:[Kivy        ] v2.0.0
+2021-09-29 15:10:54:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 15:10:54:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 15:10:54:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 15:10:54:[KivyMD      ] v0.104.1
+2021-09-29 15:10:54:[Factory     ] 186 symbols loaded
+2021-09-29 15:10:54:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 15:10:54:[Window      ] Provider: sdl2
+2021-09-29 15:10:54:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 15:10:54:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 15:10:54:[GL          ] Backend used <angle_sdl2>
+2021-09-29 15:10:54:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:10:54:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 15:10:54:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 15:10:54:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 15:10:54:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:10:54:[GL          ] Texture max size <16384>
+2021-09-29 15:10:54:[GL          ] Texture max units <16>
+2021-09-29 15:10:54:[Window      ] auto add sdl2 input provider
+2021-09-29 15:10:54:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 15:10:54:[Text        ] Provider: sdl2
+2021-09-29 15:10:54:[GL          ] NPOT texture support is available
+2021-09-29 15:10:55:[GL          ] Unpack subimage support is available
+2021-09-29 15:10:56:[Base        ] Start application main loop
+2021-09-29 15:11:06:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\Screenshot (35).zip
+2021-09-29 15:11:39:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\README.zip
+2021-09-29 15:35:28:[NEW External Device Found ] E:/
+2021-09-29 15:35:28:[usbScan method call received.. E]/
+2021-09-29 15:40:20:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_30.txt
+2021-09-29 15:40:20:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 15:40:20:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 15:40:20:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 15:40:20:[Kivy        ] v2.0.0
+2021-09-29 15:40:20:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 15:40:20:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 15:40:20:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 15:40:20:[KivyMD      ] v0.104.1
+2021-09-29 15:40:20:[Factory     ] 186 symbols loaded
+2021-09-29 15:40:20:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 15:40:20:[Window      ] Provider: sdl2
+2021-09-29 15:40:20:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 15:40:20:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 15:40:20:[GL          ] Backend used <angle_sdl2>
+2021-09-29 15:40:20:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:40:20:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 15:40:20:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 15:40:20:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 15:40:20:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:40:20:[GL          ] Texture max size <16384>
+2021-09-29 15:40:20:[GL          ] Texture max units <16>
+2021-09-29 15:40:20:[Window      ] auto add sdl2 input provider
+2021-09-29 15:40:20:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 15:40:20:[Text        ] Provider: sdl2
+2021-09-29 15:40:20:[GL          ] NPOT texture support is available
+2021-09-29 15:40:21:[GL          ] Unpack subimage support is available
+2021-09-29 15:40:22:[Base        ] Start application main loop
+2021-09-29 15:40:29:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\Screenshot (35).zip
+2021-09-29 15:40:56:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\New folder.zip
+2021-09-29 15:42:38:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 15:42:38:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 15:42:38:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 15:42:38:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 15:42:38:[Kivy        ] v2.0.0
+2021-09-29 15:42:38:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 15:42:38:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 15:42:38:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 15:42:38:[KivyMD      ] v0.104.1
+2021-09-29 15:42:39:[Factory     ] 186 symbols loaded
+2021-09-29 15:42:39:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 15:42:39:[Window      ] Provider: sdl2
+2021-09-29 15:42:39:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 15:42:39:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 15:42:39:[GL          ] Backend used <angle_sdl2>
+2021-09-29 15:42:39:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:42:39:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 15:42:39:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 15:42:39:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 15:42:39:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 15:42:39:[GL          ] Texture max size <16384>
+2021-09-29 15:42:39:[GL          ] Texture max units <16>
+2021-09-29 15:42:39:[Window      ] auto add sdl2 input provider
+2021-09-29 15:42:39:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 15:42:39:[Text        ] Provider: sdl2
+2021-09-29 15:42:39:[GL          ] NPOT texture support is available
+2021-09-29 15:42:40:[GL          ] Unpack subimage support is available
+2021-09-29 15:42:41:[Base        ] Start application main loop
+2021-09-29 15:43:09:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 16:10:19:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 16:12:51:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_15.txt
+2021-09-29 16:12:51:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 16:12:51:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 16:12:51:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 16:12:51:[Kivy        ] v2.0.0
+2021-09-29 16:12:51:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 16:12:51:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 16:12:51:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 16:12:51:[KivyMD      ] v0.104.1
+2021-09-29 16:12:51:[Factory     ] 186 symbols loaded
+2021-09-29 16:12:51:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 16:12:51:[Window      ] Provider: sdl2
+2021-09-29 16:12:51:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 16:12:51:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 16:12:51:[GL          ] Backend used <angle_sdl2>
+2021-09-29 16:12:51:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:12:51:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 16:12:51:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 16:12:51:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 16:12:51:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:12:51:[GL          ] Texture max size <16384>
+2021-09-29 16:12:51:[GL          ] Texture max units <16>
+2021-09-29 16:12:51:[Window      ] auto add sdl2 input provider
+2021-09-29 16:12:51:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 16:12:51:[Text        ] Provider: sdl2
+2021-09-29 16:12:51:[GL          ] NPOT texture support is available
+2021-09-29 16:12:52:[GL          ] Unpack subimage support is available
+2021-09-29 16:12:53:[Base        ] Start application main loop
+2021-09-29 16:13:01:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 16:13:37:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 16:13:37:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 16:13:37:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 16:13:37:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 16:13:37:[Kivy        ] v2.0.0
+2021-09-29 16:13:37:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 16:13:37:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 16:13:37:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 16:13:37:[KivyMD      ] v0.104.1
+2021-09-29 16:13:37:[Factory     ] 186 symbols loaded
+2021-09-29 16:13:37:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 16:13:37:[Window      ] Provider: sdl2
+2021-09-29 16:13:37:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 16:13:38:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 16:13:38:[GL          ] Backend used <angle_sdl2>
+2021-09-29 16:13:38:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:13:38:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 16:13:38:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 16:13:38:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 16:13:38:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:13:38:[GL          ] Texture max size <16384>
+2021-09-29 16:13:38:[GL          ] Texture max units <16>
+2021-09-29 16:13:38:[Window      ] auto add sdl2 input provider
+2021-09-29 16:13:38:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 16:13:38:[Text        ] Provider: sdl2
+2021-09-29 16:13:38:[GL          ] NPOT texture support is available
+2021-09-29 16:13:38:[GL          ] Unpack subimage support is available
+2021-09-29 16:13:40:[Base        ] Start application main loop
+2021-09-29 16:13:52:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 16:15:18:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 16:15:18:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 16:15:18:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 16:15:18:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 16:15:18:[Kivy        ] v2.0.0
+2021-09-29 16:15:18:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 16:15:18:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 16:15:18:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 16:15:18:[KivyMD      ] v0.104.1
+2021-09-29 16:15:18:[Factory     ] 186 symbols loaded
+2021-09-29 16:15:18:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 16:15:18:[Window      ] Provider: sdl2
+2021-09-29 16:15:18:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 16:15:18:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 16:15:18:[GL          ] Backend used <angle_sdl2>
+2021-09-29 16:15:18:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:15:18:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 16:15:18:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 16:15:18:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 16:15:18:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:15:18:[GL          ] Texture max size <16384>
+2021-09-29 16:15:18:[GL          ] Texture max units <16>
+2021-09-29 16:15:18:[Window      ] auto add sdl2 input provider
+2021-09-29 16:15:18:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 16:15:18:[Text        ] Provider: sdl2
+2021-09-29 16:15:18:[GL          ] NPOT texture support is available
+2021-09-29 16:15:19:[GL          ] Unpack subimage support is available
+2021-09-29 16:15:20:[Base        ] Start application main loop
+2021-09-29 16:15:24:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 16:48:17:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 16:56:22:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 16:56:22:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 16:56:22:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 16:56:22:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 16:56:22:[Kivy        ] v2.0.0
+2021-09-29 16:56:22:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 16:56:22:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 16:56:22:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 16:56:22:[KivyMD      ] v0.104.1
+2021-09-29 16:56:22:[Factory     ] 186 symbols loaded
+2021-09-29 16:56:22:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 16:56:22:[Window      ] Provider: sdl2
+2021-09-29 16:56:22:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 16:56:22:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 16:56:22:[GL          ] Backend used <angle_sdl2>
+2021-09-29 16:56:22:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:56:22:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 16:56:22:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 16:56:22:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 16:56:22:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:56:22:[GL          ] Texture max size <16384>
+2021-09-29 16:56:22:[GL          ] Texture max units <16>
+2021-09-29 16:56:22:[Window      ] auto add sdl2 input provider
+2021-09-29 16:56:22:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 16:56:22:[Text        ] Provider: sdl2
+2021-09-29 16:56:22:[GL          ] NPOT texture support is available
+2021-09-29 16:56:23:[GL          ] Unpack subimage support is available
+2021-09-29 16:56:25:[Base        ] Start application main loop
+2021-09-29 16:56:31:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 16:56:54:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_10.txt
+2021-09-29 16:56:54:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 16:56:54:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 16:56:54:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 16:56:54:[Kivy        ] v2.0.0
+2021-09-29 16:56:54:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 16:56:54:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 16:56:54:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 16:56:54:[KivyMD      ] v0.104.1
+2021-09-29 16:56:54:[Factory     ] 186 symbols loaded
+2021-09-29 16:56:54:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 16:56:54:[Window      ] Provider: sdl2
+2021-09-29 16:56:54:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 16:56:54:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 16:56:54:[GL          ] Backend used <angle_sdl2>
+2021-09-29 16:56:54:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:56:54:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 16:56:54:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 16:56:54:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 16:56:54:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 16:56:54:[GL          ] Texture max size <16384>
+2021-09-29 16:56:54:[GL          ] Texture max units <16>
+2021-09-29 16:56:54:[Window      ] auto add sdl2 input provider
+2021-09-29 16:56:54:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 16:56:54:[Text        ] Provider: sdl2
+2021-09-29 16:56:54:[GL          ] NPOT texture support is available
+2021-09-29 16:56:55:[GL          ] Unpack subimage support is available
+2021-09-29 16:56:56:[Base        ] Start application main loop
+2021-09-29 16:57:00:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\static.zip
+2021-09-29 17:08:38:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:08:38:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:08:38:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:08:38:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:08:38:[Kivy        ] v2.0.0
+2021-09-29 17:08:38:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:08:38:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:08:38:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:08:38:[KivyMD      ] v0.104.1
+2021-09-29 17:08:38:[Factory     ] 186 symbols loaded
+2021-09-29 17:08:39:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:08:39:[Window      ] Provider: sdl2
+2021-09-29 17:08:39:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:08:39:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:08:39:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:08:39:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:08:39:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:08:39:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:08:39:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:08:39:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:08:39:[GL          ] Texture max size <16384>
+2021-09-29 17:08:39:[GL          ] Texture max units <16>
+2021-09-29 17:08:39:[Window      ] auto add sdl2 input provider
+2021-09-29 17:08:39:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:08:39:[Text        ] Provider: sdl2
+2021-09-29 17:08:39:[GL          ] NPOT texture support is available
+2021-09-29 17:08:40:[GL          ] Unpack subimage support is available
+2021-09-29 17:08:41:[Base        ] Start application main loop
+2021-09-29 17:08:47:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:09:01:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 17:09:01:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:09:01:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:09:01:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:09:01:[Kivy        ] v2.0.0
+2021-09-29 17:09:01:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:09:01:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:09:01:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:09:01:[KivyMD      ] v0.104.1
+2021-09-29 17:09:01:[Factory     ] 186 symbols loaded
+2021-09-29 17:09:02:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:09:02:[Window      ] Provider: sdl2
+2021-09-29 17:09:02:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:09:02:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:09:02:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:09:02:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:09:02:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:09:02:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:09:02:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:09:02:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:09:02:[GL          ] Texture max size <16384>
+2021-09-29 17:09:02:[GL          ] Texture max units <16>
+2021-09-29 17:09:02:[Window      ] auto add sdl2 input provider
+2021-09-29 17:09:02:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:09:02:[Text        ] Provider: sdl2
+2021-09-29 17:09:02:[GL          ] NPOT texture support is available
+2021-09-29 17:09:03:[GL          ] Unpack subimage support is available
+2021-09-29 17:09:04:[Base        ] Start application main loop
+2021-09-29 17:09:09:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:09:15:[Base        ] Leaving application in progress...
+2021-09-29 17:09:15:ERROR-MESSAGE
+Traceback (most recent call last):
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\antivirus_gui.py", line 1491, in <module>
+    AntivirusSoftware().run()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 391, in idle
+    self.dispatch_input()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 342, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 308, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\_event.pyx", line 705, in kivy._event.EventDispatcher.dispatch
+  File "kivy\_event.pyx", line 1248, in kivy._event.EventObservers.dispatch
+  File "kivy\_event.pyx", line 1132, in kivy._event.EventObservers._dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 57, in custom_callback
+    exec(__kvlang__.co_value, idmap)
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 682, in <module>
+    Action_root = Factory.Action_popup();\
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\Empx\utilskv.py", line 60, in __init__
+    super(Action_popup, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\modalview.py", line 187, in __init__
+    super(ModalView, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\anchorlayout.py", line 68, in __init__
+    super(AnchorLayout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+    super(Layout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 361, in __init__
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 465, in apply_class_lang_rules
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 543, in apply
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 664, in _apply_rule
+    child, crule, rootrule, rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 664, in _apply_rule
+    child, crule, rootrule, rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 664, in _apply_rule
+    child, crule, rootrule, rule_children=rule_children)
+  [Previous line repeated 1 more time]
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 659, in _apply_rule
+    child = cls(__no_builder=True)
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\Empx\utilskv.py", line 189, in __init__
+    row_2 = row[-1][:21]+"...."if len(row[-1])>=20 else row[-1]
+TypeError: object of type 'NoneType' has no len()
+2021-09-29 17:09:29:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:09:29:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:09:29:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:09:29:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:09:29:[Kivy        ] v2.0.0
+2021-09-29 17:09:29:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:09:29:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:09:29:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:09:29:[KivyMD      ] v0.104.1
+2021-09-29 17:09:29:[Factory     ] 186 symbols loaded
+2021-09-29 17:09:29:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:09:29:[Window      ] Provider: sdl2
+2021-09-29 17:09:29:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:09:29:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:09:29:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:09:29:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:09:29:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:09:29:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:09:29:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:09:29:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:09:29:[GL          ] Texture max size <16384>
+2021-09-29 17:09:29:[GL          ] Texture max units <16>
+2021-09-29 17:09:30:[Window      ] auto add sdl2 input provider
+2021-09-29 17:09:30:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:09:30:[Text        ] Provider: sdl2
+2021-09-29 17:09:30:[GL          ] NPOT texture support is available
+2021-09-29 17:09:30:[GL          ] Unpack subimage support is available
+2021-09-29 17:09:31:[Base        ] Start application main loop
+2021-09-29 17:09:34:[Base        ] Leaving application in progress...
+2021-09-29 17:09:34:ERROR-MESSAGE
+Traceback (most recent call last):
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\antivirus_gui.py", line 1491, in <module>
+    AntivirusSoftware().run()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 391, in idle
+    self.dispatch_input()
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 342, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\base.py", line 308, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\_event.pyx", line 709, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\_event.pyx", line 705, in kivy._event.EventDispatcher.dispatch
+  File "kivy\_event.pyx", line 1248, in kivy._event.EventObservers.dispatch
+  File "kivy\_event.pyx", line 1132, in kivy._event.EventObservers._dispatch
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 57, in custom_callback
+    exec(__kvlang__.co_value, idmap)
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\static\kivy_files\main.kv", line 682, in <module>
+    Action_root = Factory.Action_popup();\
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\Empx\utilskv.py", line 60, in __init__
+    super(Action_popup, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\modalview.py", line 187, in __init__
+    super(ModalView, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\anchorlayout.py", line 68, in __init__
+    super(AnchorLayout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+    super(Layout, self).__init__(**kwargs)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 361, in __init__
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\uix\widget.py", line 465, in apply_class_lang_rules
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 543, in apply
+    rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 664, in _apply_rule
+    child, crule, rootrule, rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 664, in _apply_rule
+    child, crule, rootrule, rule_children=rule_children)
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 664, in _apply_rule
+    child, crule, rootrule, rule_children=rule_children)
+  [Previous line repeated 1 more time]
+  File "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\lang\builder.py", line 659, in _apply_rule
+    child = cls(__no_builder=True)
+  File "d:\Dima_Antivirus\DimaAV_Basic\WINDOWS-BUILD\AV_BUILD\DimaAV_Build\PROGRAMMING_CODES\Empx\utilskv.py", line 189, in __init__
+    row_2 = row[-1][:21]+"...."if len(row[-1])>=20 else row[-1]
+TypeError: object of type 'NoneType' has no len()
+2021-09-29 17:11:22:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_11.txt
+2021-09-29 17:11:22:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:11:22:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:11:22:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:11:22:[Kivy        ] v2.0.0
+2021-09-29 17:11:22:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:11:22:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:11:22:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:11:22:[KivyMD      ] v0.104.1
+2021-09-29 17:11:22:[Factory     ] 186 symbols loaded
+2021-09-29 17:11:22:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:11:22:[Window      ] Provider: sdl2
+2021-09-29 17:11:22:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:11:22:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:11:22:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:11:22:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:11:22:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:11:22:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:11:22:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:11:22:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:11:22:[GL          ] Texture max size <16384>
+2021-09-29 17:11:22:[GL          ] Texture max units <16>
+2021-09-29 17:11:22:[Window      ] auto add sdl2 input provider
+2021-09-29 17:11:22:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:11:22:[Text        ] Provider: sdl2
+2021-09-29 17:11:22:[GL          ] NPOT texture support is available
+2021-09-29 17:11:23:[GL          ] Unpack subimage support is available
+2021-09-29 17:11:24:[Base        ] Start application main loop
+2021-09-29 17:15:14:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:15:36:Internet-Connection Error
+2021-09-29 17:15:59:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:15:59:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:15:59:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:15:59:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:15:59:[Kivy        ] v2.0.0
+2021-09-29 17:15:59:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:15:59:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:15:59:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:15:59:[KivyMD      ] v0.104.1
+2021-09-29 17:15:59:[Factory     ] 186 symbols loaded
+2021-09-29 17:15:59:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:15:59:[Window      ] Provider: sdl2
+2021-09-29 17:15:59:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:15:59:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:15:59:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:15:59:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:15:59:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:15:59:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:15:59:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:15:59:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:15:59:[GL          ] Texture max size <16384>
+2021-09-29 17:15:59:[GL          ] Texture max units <16>
+2021-09-29 17:15:59:[Window      ] auto add sdl2 input provider
+2021-09-29 17:15:59:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:16:00:[Text        ] Provider: sdl2
+2021-09-29 17:16:00:[GL          ] NPOT texture support is available
+2021-09-29 17:16:00:[GL          ] Unpack subimage support is available
+2021-09-29 17:16:01:[Base        ] Start application main loop
+2021-09-29 17:16:06:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:16:32:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 17:16:32:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:16:32:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:16:32:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:16:32:[Kivy        ] v2.0.0
+2021-09-29 17:16:32:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:16:32:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:16:32:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:16:32:[KivyMD      ] v0.104.1
+2021-09-29 17:16:32:[Factory     ] 186 symbols loaded
+2021-09-29 17:16:32:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:16:32:[Window      ] Provider: sdl2
+2021-09-29 17:16:32:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:16:32:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:16:32:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:16:32:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:16:32:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:16:32:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:16:32:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:16:32:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:16:32:[GL          ] Texture max size <16384>
+2021-09-29 17:16:32:[GL          ] Texture max units <16>
+2021-09-29 17:16:33:[Window      ] auto add sdl2 input provider
+2021-09-29 17:16:33:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:16:33:[Text        ] Provider: sdl2
+2021-09-29 17:16:33:[GL          ] NPOT texture support is available
+2021-09-29 17:16:33:[GL          ] Unpack subimage support is available
+2021-09-29 17:16:35:[Base        ] Start application main loop
+2021-09-29 17:16:39:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:17:07:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:17:07:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:17:07:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:17:07:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:17:07:[Kivy        ] v2.0.0
+2021-09-29 17:17:07:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:17:07:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:17:07:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:17:07:[KivyMD      ] v0.104.1
+2021-09-29 17:17:07:[Factory     ] 186 symbols loaded
+2021-09-29 17:17:07:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:17:07:[Window      ] Provider: sdl2
+2021-09-29 17:17:07:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:17:08:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:17:08:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:17:08:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:17:08:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:17:08:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:17:08:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:17:08:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:17:08:[GL          ] Texture max size <16384>
+2021-09-29 17:17:08:[GL          ] Texture max units <16>
+2021-09-29 17:17:08:[Window      ] auto add sdl2 input provider
+2021-09-29 17:17:08:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:17:08:[Text        ] Provider: sdl2
+2021-09-29 17:17:08:[GL          ] NPOT texture support is available
+2021-09-29 17:17:08:[GL          ] Unpack subimage support is available
+2021-09-29 17:17:10:[Base        ] Start application main loop
+2021-09-29 17:17:14:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:17:28:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_10.txt
+2021-09-29 17:17:28:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:17:28:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:17:28:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:17:28:[Kivy        ] v2.0.0
+2021-09-29 17:17:28:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:17:28:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:17:28:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:17:28:[KivyMD      ] v0.104.1
+2021-09-29 17:17:28:[Factory     ] 186 symbols loaded
+2021-09-29 17:17:28:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:17:28:[Window      ] Provider: sdl2
+2021-09-29 17:17:28:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:17:29:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:17:29:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:17:29:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:17:29:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:17:29:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:17:29:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:17:29:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:17:29:[GL          ] Texture max size <16384>
+2021-09-29 17:17:29:[GL          ] Texture max units <16>
+2021-09-29 17:17:29:[Window      ] auto add sdl2 input provider
+2021-09-29 17:17:29:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:17:29:[Text        ] Provider: sdl2
+2021-09-29 17:17:29:[GL          ] NPOT texture support is available
+2021-09-29 17:17:31:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_12.txt
+2021-09-29 17:17:31:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:17:31:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:17:31:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:17:31:[Kivy        ] v2.0.0
+2021-09-29 17:17:31:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:17:31:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:17:31:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:17:31:[KivyMD      ] v0.104.1
+2021-09-29 17:17:31:[Factory     ] 186 symbols loaded
+2021-09-29 17:17:32:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:17:32:[Window      ] Provider: sdl2
+2021-09-29 17:17:32:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:17:32:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:17:32:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:17:32:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:17:32:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:17:32:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:17:32:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:17:32:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:17:32:[GL          ] Texture max size <16384>
+2021-09-29 17:17:32:[GL          ] Texture max units <16>
+2021-09-29 17:17:32:[Window      ] auto add sdl2 input provider
+2021-09-29 17:17:32:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:17:32:[Text        ] Provider: sdl2
+2021-09-29 17:17:32:[GL          ] NPOT texture support is available
+2021-09-29 17:17:32:[GL          ] Unpack subimage support is available
+2021-09-29 17:17:34:[Base        ] Start application main loop
+2021-09-29 17:17:37:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:18:08:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:18:08:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:18:08:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:18:08:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:18:08:[Kivy        ] v2.0.0
+2021-09-29 17:18:08:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:18:08:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:18:08:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:18:08:[KivyMD      ] v0.104.1
+2021-09-29 17:18:08:[Factory     ] 186 symbols loaded
+2021-09-29 17:18:09:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:18:09:[Window      ] Provider: sdl2
+2021-09-29 17:18:09:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:18:09:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:18:09:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:18:09:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:18:09:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:18:09:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:18:09:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:18:09:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:18:09:[GL          ] Texture max size <16384>
+2021-09-29 17:18:09:[GL          ] Texture max units <16>
+2021-09-29 17:18:09:[Window      ] auto add sdl2 input provider
+2021-09-29 17:18:09:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:18:09:[Text        ] Provider: sdl2
+2021-09-29 17:18:09:[GL          ] NPOT texture support is available
+2021-09-29 17:18:10:[GL          ] Unpack subimage support is available
+2021-09-29 17:18:11:[Base        ] Start application main loop
+2021-09-29 17:18:16:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\FannyWorm_3A57ADB8740DA3EBEC1673D21F20D0FE.zip
+2021-09-29 17:18:30:[Custom-scanPath ] C:\Users\Sankar_Senthil\Downloads\20210928_174502.png
+2021-09-29 17:19:39:[Custom-scanPath ] C:\Users\Sankar_Senthil\Desktop\Dima Privacy Protection.zip
+2021-09-29 17:20:09:[Custom-scanPath ] D:\vpn_fold (1).zip
+2021-09-29 17:20:23:[Custom-scanPath ] D:\vpn_fold (1).zip
+2021-09-29 17:21:08:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 17:21:08:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:21:08:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:21:08:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:21:08:[Kivy        ] v2.0.0
+2021-09-29 17:21:08:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:21:08:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:21:08:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:21:08:[KivyMD      ] v0.104.1
+2021-09-29 17:21:08:[Factory     ] 186 symbols loaded
+2021-09-29 17:21:09:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:21:09:[Window      ] Provider: sdl2
+2021-09-29 17:21:09:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:21:09:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:21:09:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:21:09:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:21:09:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:21:09:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:21:09:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:21:09:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:21:09:[GL          ] Texture max size <16384>
+2021-09-29 17:21:09:[GL          ] Texture max units <16>
+2021-09-29 17:21:09:[Window      ] auto add sdl2 input provider
+2021-09-29 17:21:09:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:21:09:[Text        ] Provider: sdl2
+2021-09-29 17:21:09:[GL          ] NPOT texture support is available
+2021-09-29 17:21:10:[GL          ] Unpack subimage support is available
+2021-09-29 17:21:11:[Base        ] Start application main loop
+2021-09-29 17:21:16:[Custom-scanPath ] D:\vpn_fold (1).zip
+2021-09-29 17:22:08:[Custom-scanPath ] C:\Users\Sankar_Senthil\Documents
+2021-09-29 17:22:41:[Custom-scanPath ] C:\Users\Sankar_Senthil\Documents
+2021-09-29 17:23:54:[Custom-scanPath ] D:\project.zip
+2021-09-29 17:24:26:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:25:25:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:25:25:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:25:25:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:25:25:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:25:25:[Kivy        ] v2.0.0
+2021-09-29 17:25:25:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:25:25:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:25:25:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:25:25:[KivyMD      ] v0.104.1
+2021-09-29 17:25:25:[Factory     ] 186 symbols loaded
+2021-09-29 17:25:25:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:25:25:[Window      ] Provider: sdl2
+2021-09-29 17:25:25:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:25:25:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:25:25:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:25:25:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:25:25:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:25:25:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:25:25:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:25:25:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:25:25:[GL          ] Texture max size <16384>
+2021-09-29 17:25:25:[GL          ] Texture max units <16>
+2021-09-29 17:25:25:[Window      ] auto add sdl2 input provider
+2021-09-29 17:25:25:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:25:26:[Text        ] Provider: sdl2
+2021-09-29 17:25:26:[GL          ] NPOT texture support is available
+2021-09-29 17:25:26:[GL          ] Unpack subimage support is available
+2021-09-29 17:25:27:[Base        ] Start application main loop
+2021-09-29 17:25:32:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:26:34:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_10.txt
+2021-09-29 17:26:34:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:26:34:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:26:34:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:26:34:[Kivy        ] v2.0.0
+2021-09-29 17:26:34:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:26:34:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:26:34:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:26:34:[KivyMD      ] v0.104.1
+2021-09-29 17:26:34:[Factory     ] 186 symbols loaded
+2021-09-29 17:26:35:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:26:35:[Window      ] Provider: sdl2
+2021-09-29 17:26:35:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:26:35:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:26:35:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:26:35:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:26:35:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:26:35:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:26:35:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:26:35:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:26:35:[GL          ] Texture max size <16384>
+2021-09-29 17:26:35:[GL          ] Texture max units <16>
+2021-09-29 17:26:35:[Window      ] auto add sdl2 input provider
+2021-09-29 17:26:35:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:26:35:[Text        ] Provider: sdl2
+2021-09-29 17:26:35:[GL          ] NPOT texture support is available
+2021-09-29 17:26:36:[GL          ] Unpack subimage support is available
+2021-09-29 17:26:37:[Base        ] Start application main loop
+2021-09-29 17:26:43:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:35:02:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:35:02:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:35:02:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:35:02:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:35:02:[Kivy        ] v2.0.0
+2021-09-29 17:35:02:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:35:02:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:35:02:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:35:02:[KivyMD      ] v0.104.1
+2021-09-29 17:35:02:[Factory     ] 186 symbols loaded
+2021-09-29 17:35:02:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:35:02:[Window      ] Provider: sdl2
+2021-09-29 17:35:02:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:35:03:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:35:03:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:35:03:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:35:03:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:35:03:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:35:03:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:35:03:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:35:03:[GL          ] Texture max size <16384>
+2021-09-29 17:35:03:[GL          ] Texture max units <16>
+2021-09-29 17:35:03:[Window      ] auto add sdl2 input provider
+2021-09-29 17:35:03:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:35:03:[Text        ] Provider: sdl2
+2021-09-29 17:35:03:[GL          ] NPOT texture support is available
+2021-09-29 17:35:03:[GL          ] Unpack subimage support is available
+2021-09-29 17:35:05:[Base        ] Start application main loop
+2021-09-29 17:35:09:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:37:19:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 17:37:19:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:37:19:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:37:19:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:37:19:[Kivy        ] v2.0.0
+2021-09-29 17:37:19:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:37:19:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:37:19:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:37:19:[KivyMD      ] v0.104.1
+2021-09-29 17:37:19:[Factory     ] 186 symbols loaded
+2021-09-29 17:37:19:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:37:19:[Window      ] Provider: sdl2
+2021-09-29 17:37:19:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:37:19:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:37:20:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:37:20:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:37:20:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:37:20:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:37:20:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:37:20:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:37:20:[GL          ] Texture max size <16384>
+2021-09-29 17:37:20:[GL          ] Texture max units <16>
+2021-09-29 17:37:20:[Window      ] auto add sdl2 input provider
+2021-09-29 17:37:20:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:37:20:[Text        ] Provider: sdl2
+2021-09-29 17:37:20:[GL          ] NPOT texture support is available
+2021-09-29 17:37:20:[GL          ] Unpack subimage support is available
+2021-09-29 17:37:22:[Base        ] Start application main loop
+2021-09-29 17:37:26:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:40:22:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:40:22:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:40:22:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:40:22:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:40:22:[Kivy        ] v2.0.0
+2021-09-29 17:40:22:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:40:22:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:40:22:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:40:22:[KivyMD      ] v0.104.1
+2021-09-29 17:40:22:[Factory     ] 186 symbols loaded
+2021-09-29 17:40:22:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:40:22:[Window      ] Provider: sdl2
+2021-09-29 17:40:22:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:40:22:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:40:22:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:40:22:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:40:22:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:40:22:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:40:22:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:40:22:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:40:22:[GL          ] Texture max size <16384>
+2021-09-29 17:40:22:[GL          ] Texture max units <16>
+2021-09-29 17:40:22:[Window      ] auto add sdl2 input provider
+2021-09-29 17:40:22:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:40:22:[Text        ] Provider: sdl2
+2021-09-29 17:40:22:[GL          ] NPOT texture support is available
+2021-09-29 17:40:23:[GL          ] Unpack subimage support is available
+2021-09-29 17:40:25:[Base        ] Start application main loop
+2021-09-29 17:40:27:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_11.txt
+2021-09-29 17:40:27:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:40:27:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:40:27:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:40:27:[Kivy        ] v2.0.0
+2021-09-29 17:40:27:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:40:27:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:40:27:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:40:27:[KivyMD      ] v0.104.1
+2021-09-29 17:40:27:[Factory     ] 186 symbols loaded
+2021-09-29 17:40:27:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:40:28:[Window      ] Provider: sdl2
+2021-09-29 17:40:28:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:40:28:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:40:28:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:40:28:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:40:28:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:40:28:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:40:28:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:40:28:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:40:28:[GL          ] Texture max size <16384>
+2021-09-29 17:40:28:[GL          ] Texture max units <16>
+2021-09-29 17:40:28:[Window      ] auto add sdl2 input provider
+2021-09-29 17:40:28:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:40:28:[Text        ] Provider: sdl2
+2021-09-29 17:40:28:[GL          ] NPOT texture support is available
+2021-09-29 17:40:28:[GL          ] Unpack subimage support is available
+2021-09-29 17:40:30:[Base        ] Start application main loop
+2021-09-29 17:40:37:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:42:57:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:42:57:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:42:57:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:42:57:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:42:57:[Kivy        ] v2.0.0
+2021-09-29 17:42:57:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:42:57:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:42:57:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:42:57:[KivyMD      ] v0.104.1
+2021-09-29 17:42:57:[Factory     ] 186 symbols loaded
+2021-09-29 17:42:57:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:42:57:[Window      ] Provider: sdl2
+2021-09-29 17:42:57:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:42:57:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:42:57:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:42:57:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:42:57:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:42:57:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:42:57:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:42:57:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:42:57:[GL          ] Texture max size <16384>
+2021-09-29 17:42:57:[GL          ] Texture max units <16>
+2021-09-29 17:42:57:[Window      ] auto add sdl2 input provider
+2021-09-29 17:42:57:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:42:57:[Text        ] Provider: sdl2
+2021-09-29 17:42:57:[GL          ] NPOT texture support is available
+2021-09-29 17:42:58:[GL          ] Unpack subimage support is available
+2021-09-29 17:42:59:[Base        ] Start application main loop
+2021-09-29 17:43:03:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:44:35:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_1.txt
+2021-09-29 17:44:35:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:44:35:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:44:35:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:44:35:[Kivy        ] v2.0.0
+2021-09-29 17:44:35:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:44:35:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:44:35:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:44:35:[KivyMD      ] v0.104.1
+2021-09-29 17:44:35:[Factory     ] 186 symbols loaded
+2021-09-29 17:44:35:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:44:35:[Window      ] Provider: sdl2
+2021-09-29 17:44:35:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:44:35:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:44:35:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:44:35:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:44:35:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:44:35:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:44:35:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:44:35:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:44:35:[GL          ] Texture max size <16384>
+2021-09-29 17:44:35:[GL          ] Texture max units <16>
+2021-09-29 17:44:35:[Window      ] auto add sdl2 input provider
+2021-09-29 17:44:35:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:44:35:[Text        ] Provider: sdl2
+2021-09-29 17:44:35:[GL          ] NPOT texture support is available
+2021-09-29 17:44:36:[GL          ] Unpack subimage support is available
+2021-09-29 17:44:37:[Base        ] Start application main loop
+2021-09-29 17:44:41:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-29 17:45:31:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-29_0.txt
+2021-09-29 17:45:31:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-29 17:45:31:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-29 17:45:31:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-29 17:45:31:[Kivy        ] v2.0.0
+2021-09-29 17:45:31:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-29 17:45:31:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-29 17:45:31:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-29 17:45:31:[KivyMD      ] v0.104.1
+2021-09-29 17:45:31:[Factory     ] 186 symbols loaded
+2021-09-29 17:45:31:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-29 17:45:31:[Window      ] Provider: sdl2
+2021-09-29 17:45:31:[Window      ] Activate GLES2/ANGLE context
+2021-09-29 17:45:31:[GL          ] Using the "OpenGL" graphics system
+2021-09-29 17:45:31:[GL          ] Backend used <angle_sdl2>
+2021-09-29 17:45:31:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:45:31:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-29 17:45:31:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-29 17:45:31:[GL          ] OpenGL parsed version: 3, 0
+2021-09-29 17:45:31:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-29 17:45:31:[GL          ] Texture max size <16384>
+2021-09-29 17:45:31:[GL          ] Texture max units <16>
+2021-09-29 17:45:31:[Window      ] auto add sdl2 input provider
+2021-09-29 17:45:31:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-29 17:45:31:[Text        ] Provider: sdl2
+2021-09-29 17:45:31:[GL          ] NPOT texture support is available
+2021-09-29 17:45:32:[GL          ] Unpack subimage support is available
+2021-09-29 17:45:33:[Base        ] Start application main loop
+2021-09-29 17:45:38:[Custom-scanPath ] D:\Sliver_Star\Sliver_Star_TotalSecurity\WINDOWS-BUILD\203\Dima Total Security ( Office Build )\DIMA_Total_Security_Setup.x64 (64bit).exe
+2021-09-30 09:50:47:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_1.txt
+2021-09-30 09:50:47:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 09:50:47:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 09:50:47:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 09:50:47:[Kivy        ] v2.0.0
+2021-09-30 09:50:47:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 09:50:47:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 09:50:47:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 09:50:47:[KivyMD      ] v0.104.1
+2021-09-30 09:50:47:[Factory     ] 186 symbols loaded
+2021-09-30 09:50:48:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 09:50:48:[Window      ] Provider: sdl2
+2021-09-30 09:50:48:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 09:50:49:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 09:50:49:[GL          ] Backend used <angle_sdl2>
+2021-09-30 09:50:49:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:50:49:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 09:50:49:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 09:50:49:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 09:50:49:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:50:49:[GL          ] Texture max size <16384>
+2021-09-30 09:50:49:[GL          ] Texture max units <16>
+2021-09-30 09:50:49:[Window      ] auto add sdl2 input provider
+2021-09-30 09:50:49:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 09:50:49:[Text        ] Provider: sdl2
+2021-09-30 09:50:49:[GL          ] NPOT texture support is available
+2021-09-30 09:50:49:[GL          ] Unpack subimage support is available
+2021-09-30 09:50:51:[Base        ] Start application main loop
+2021-09-30 09:50:54:Full-Scan Process Started !!
+2021-09-30 09:50:54:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 09:51:20:Internet-Connection Error
+2021-09-30 09:51:28:Internet-Connection Error
+2021-09-30 09:51:29:Internet-Connection Error
+2021-09-30 09:51:32:Internet-Connection Error
+2021-09-30 09:51:43:Internet-Connection Error
+2021-09-30 09:51:56:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_0.txt
+2021-09-30 09:51:56:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 09:51:56:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 09:51:56:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 09:51:56:[Kivy        ] v2.0.0
+2021-09-30 09:51:56:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 09:51:56:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 09:51:56:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 09:51:56:[Logger      ] Purge log fired. Analysing...
+2021-09-30 09:51:56:[Logger      ] Purge finished!
+2021-09-30 09:51:56:[KivyMD      ] v0.104.1
+2021-09-30 09:51:56:[Factory     ] 186 symbols loaded
+2021-09-30 09:51:57:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 09:51:57:[Window      ] Provider: sdl2
+2021-09-30 09:51:57:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 09:51:57:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 09:51:57:[GL          ] Backend used <angle_sdl2>
+2021-09-30 09:51:57:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:51:57:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 09:51:57:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 09:51:57:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 09:51:57:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:51:57:[GL          ] Texture max size <16384>
+2021-09-30 09:51:57:[GL          ] Texture max units <16>
+2021-09-30 09:51:57:[Window      ] auto add sdl2 input provider
+2021-09-30 09:51:57:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 09:51:57:[Text        ] Provider: sdl2
+2021-09-30 09:51:57:[GL          ] NPOT texture support is available
+2021-09-30 09:51:58:[GL          ] Unpack subimage support is available
+2021-09-30 09:51:59:[Base        ] Start application main loop
+2021-09-30 09:52:01:Full-Scan Process Started !!
+2021-09-30 09:52:01:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 09:52:23:Internet-Connection Error
+2021-09-30 09:52:27:Internet-Connection Error
+2021-09-30 09:52:36:Internet-Connection Error
+2021-09-30 09:52:51:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_2.txt
+2021-09-30 09:52:51:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 09:52:51:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 09:52:51:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 09:52:51:[Kivy        ] v2.0.0
+2021-09-30 09:52:51:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 09:52:51:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 09:52:51:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 09:52:51:[KivyMD      ] v0.104.1
+2021-09-30 09:52:51:[Factory     ] 186 symbols loaded
+2021-09-30 09:52:51:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 09:52:51:[Window      ] Provider: sdl2
+2021-09-30 09:52:51:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 09:52:52:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 09:52:52:[GL          ] Backend used <angle_sdl2>
+2021-09-30 09:52:52:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:52:52:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 09:52:52:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 09:52:52:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 09:52:52:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:52:52:[GL          ] Texture max size <16384>
+2021-09-30 09:52:52:[GL          ] Texture max units <16>
+2021-09-30 09:52:52:[Window      ] auto add sdl2 input provider
+2021-09-30 09:52:52:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 09:52:52:[Text        ] Provider: sdl2
+2021-09-30 09:52:52:[GL          ] NPOT texture support is available
+2021-09-30 09:52:52:[GL          ] Unpack subimage support is available
+2021-09-30 09:52:54:[Base        ] Start application main loop
+2021-09-30 09:52:56:Full-Scan Process Started !!
+2021-09-30 09:52:56:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 09:53:15:Internet-Connection Error
+2021-09-30 09:53:28:Internet-Connection Error
+2021-09-30 09:53:30:Internet-Connection Error
+2021-09-30 09:53:31:Internet-Connection Error
+2021-09-30 09:53:34:Internet-Connection Error
+2021-09-30 09:53:40:Internet-Connection Error
+2021-09-30 09:53:41:Internet-Connection Error
+2021-09-30 09:54:01:Internet-Connection Error
+2021-09-30 09:54:06:Internet-Connection Error
+2021-09-30 09:54:26:Internet-Connection Error
+2021-09-30 09:54:28:Internet-Connection Error
+2021-09-30 09:54:51:Internet-Connection Error
+2021-09-30 09:54:54:Internet-Connection Error
+2021-09-30 09:54:57:Internet-Connection Error
+2021-09-30 09:54:58:Internet-Connection Error
+2021-09-30 09:55:00:Internet-Connection Error
+2021-09-30 09:55:08:Internet-Connection Error
+2021-09-30 09:55:17:Internet-Connection Error
+2021-09-30 09:55:29:Internet-Connection Error
+2021-09-30 09:57:29:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_0.txt
+2021-09-30 09:57:29:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 09:57:29:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 09:57:29:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 09:57:29:[Kivy        ] v2.0.0
+2021-09-30 09:57:29:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 09:57:29:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 09:57:29:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 09:57:29:[Logger      ] Purge log fired. Analysing...
+2021-09-30 09:57:29:[Logger      ] Purge finished!
+2021-09-30 09:57:29:[KivyMD      ] v0.104.1
+2021-09-30 09:57:29:[Factory     ] 186 symbols loaded
+2021-09-30 09:57:29:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 09:57:29:[Window      ] Provider: sdl2
+2021-09-30 09:57:29:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 09:57:30:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 09:57:30:[GL          ] Backend used <angle_sdl2>
+2021-09-30 09:57:30:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:57:30:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 09:57:30:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 09:57:30:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 09:57:30:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:57:30:[GL          ] Texture max size <16384>
+2021-09-30 09:57:30:[GL          ] Texture max units <16>
+2021-09-30 09:57:30:[Window      ] auto add sdl2 input provider
+2021-09-30 09:57:30:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 09:57:30:[Text        ] Provider: sdl2
+2021-09-30 09:57:30:[GL          ] NPOT texture support is available
+2021-09-30 09:57:30:[GL          ] Unpack subimage support is available
+2021-09-30 09:57:32:[Base        ] Start application main loop
+2021-09-30 09:57:34:Full-Scan Process Started !!
+2021-09-30 09:57:34:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 09:58:40:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_1.txt
+2021-09-30 09:58:40:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 09:58:40:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 09:58:40:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 09:58:40:[Kivy        ] v2.0.0
+2021-09-30 09:58:40:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 09:58:40:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 09:58:40:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 09:58:40:[KivyMD      ] v0.104.1
+2021-09-30 09:58:40:[Factory     ] 186 symbols loaded
+2021-09-30 09:58:40:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 09:58:40:[Window      ] Provider: sdl2
+2021-09-30 09:58:40:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 09:58:40:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 09:58:40:[GL          ] Backend used <angle_sdl2>
+2021-09-30 09:58:40:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:58:40:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 09:58:40:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 09:58:40:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 09:58:40:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 09:58:40:[GL          ] Texture max size <16384>
+2021-09-30 09:58:40:[GL          ] Texture max units <16>
+2021-09-30 09:58:40:[Window      ] auto add sdl2 input provider
+2021-09-30 09:58:40:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 09:58:40:[Text        ] Provider: sdl2
+2021-09-30 09:58:40:[GL          ] NPOT texture support is available
+2021-09-30 09:58:41:[GL          ] Unpack subimage support is available
+2021-09-30 09:58:42:[Base        ] Start application main loop
+2021-09-30 09:58:44:Full-Scan Process Started !!
+2021-09-30 09:58:44:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 10:00:11:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_0.txt
+2021-09-30 10:00:11:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 10:00:11:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 10:00:11:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 10:00:11:[Kivy        ] v2.0.0
+2021-09-30 10:00:11:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 10:00:11:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 10:00:11:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 10:00:11:[KivyMD      ] v0.104.1
+2021-09-30 10:00:11:[Factory     ] 186 symbols loaded
+2021-09-30 10:00:12:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 10:00:12:[Window      ] Provider: sdl2
+2021-09-30 10:00:12:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 10:00:12:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 10:00:12:[GL          ] Backend used <angle_sdl2>
+2021-09-30 10:00:12:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:00:12:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 10:00:12:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 10:00:12:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 10:00:12:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:00:12:[GL          ] Texture max size <16384>
+2021-09-30 10:00:12:[GL          ] Texture max units <16>
+2021-09-30 10:00:12:[Window      ] auto add sdl2 input provider
+2021-09-30 10:00:12:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 10:00:12:[Text        ] Provider: sdl2
+2021-09-30 10:00:12:[GL          ] NPOT texture support is available
+2021-09-30 10:00:13:[GL          ] Unpack subimage support is available
+2021-09-30 10:00:14:[Base        ] Start application main loop
+2021-09-30 10:00:15:Full-Scan Process Started !!
+2021-09-30 10:00:16:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 10:16:07:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_7.txt
+2021-09-30 10:16:07:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 10:16:07:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 10:16:07:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 10:16:07:[Kivy        ] v2.0.0
+2021-09-30 10:16:07:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 10:16:07:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 10:16:07:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 10:16:07:[KivyMD      ] v0.104.1
+2021-09-30 10:16:07:[Factory     ] 186 symbols loaded
+2021-09-30 10:16:07:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 10:16:07:[Window      ] Provider: sdl2
+2021-09-30 10:16:08:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 10:16:08:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 10:16:08:[GL          ] Backend used <angle_sdl2>
+2021-09-30 10:16:08:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:16:08:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 10:16:08:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 10:16:08:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 10:16:08:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:16:08:[GL          ] Texture max size <16384>
+2021-09-30 10:16:08:[GL          ] Texture max units <16>
+2021-09-30 10:16:08:[Window      ] auto add sdl2 input provider
+2021-09-30 10:16:08:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 10:16:08:[Text        ] Provider: sdl2
+2021-09-30 10:16:08:[GL          ] NPOT texture support is available
+2021-09-30 10:16:08:[GL          ] Unpack subimage support is available
+2021-09-30 10:16:10:[Base        ] Start application main loop
+2021-09-30 10:16:13:Full-Scan Process Started !!
+2021-09-30 10:16:13:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 10:16:50:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_0.txt
+2021-09-30 10:16:50:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 10:16:50:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 10:16:50:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 10:16:50:[Kivy        ] v2.0.0
+2021-09-30 10:16:50:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 10:16:50:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 10:16:50:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 10:16:50:[KivyMD      ] v0.104.1
+2021-09-30 10:16:50:[Factory     ] 186 symbols loaded
+2021-09-30 10:16:50:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 10:16:50:[Window      ] Provider: sdl2
+2021-09-30 10:16:50:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 10:16:51:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 10:16:51:[GL          ] Backend used <angle_sdl2>
+2021-09-30 10:16:51:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:16:51:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 10:16:51:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 10:16:51:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 10:16:51:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:16:51:[GL          ] Texture max size <16384>
+2021-09-30 10:16:51:[GL          ] Texture max units <16>
+2021-09-30 10:16:51:[Window      ] auto add sdl2 input provider
+2021-09-30 10:16:51:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 10:16:51:[Text        ] Provider: sdl2
+2021-09-30 10:16:51:[GL          ] NPOT texture support is available
+2021-09-30 10:16:51:[GL          ] Unpack subimage support is available
+2021-09-30 10:16:53:[Base        ] Start application main loop
+2021-09-30 10:16:54:Full-Scan Process Started !!
+2021-09-30 10:16:54:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 10:17:40:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_1.txt
+2021-09-30 10:17:40:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 10:17:40:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 10:17:40:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 10:17:40:[Kivy        ] v2.0.0
+2021-09-30 10:17:40:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 10:17:40:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 10:17:40:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 10:17:40:[KivyMD      ] v0.104.1
+2021-09-30 10:17:40:[Factory     ] 186 symbols loaded
+2021-09-30 10:17:40:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 10:17:40:[Window      ] Provider: sdl2
+2021-09-30 10:17:40:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 10:17:41:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 10:17:41:[GL          ] Backend used <angle_sdl2>
+2021-09-30 10:17:41:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:17:41:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 10:17:41:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 10:17:41:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 10:17:41:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:17:41:[GL          ] Texture max size <16384>
+2021-09-30 10:17:41:[GL          ] Texture max units <16>
+2021-09-30 10:17:41:[Window      ] auto add sdl2 input provider
+2021-09-30 10:17:41:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 10:17:41:[Text        ] Provider: sdl2
+2021-09-30 10:17:41:[GL          ] NPOT texture support is available
+2021-09-30 10:17:41:[GL          ] Unpack subimage support is available
+2021-09-30 10:17:43:[Base        ] Start application main loop
+2021-09-30 10:17:44:Full-Scan Process Started !!
+2021-09-30 10:17:44:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 10:20:45:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_0.txt
+2021-09-30 10:20:45:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 10:20:45:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 10:20:45:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 10:20:45:[Kivy        ] v2.0.0
+2021-09-30 10:20:45:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 10:20:45:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 10:20:45:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 10:20:45:[KivyMD      ] v0.104.1
+2021-09-30 10:20:45:[Factory     ] 186 symbols loaded
+2021-09-30 10:20:45:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 10:20:45:[Window      ] Provider: sdl2
+2021-09-30 10:20:45:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 10:20:45:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 10:20:45:[GL          ] Backend used <angle_sdl2>
+2021-09-30 10:20:45:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:20:45:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 10:20:45:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 10:20:45:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 10:20:45:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:20:45:[GL          ] Texture max size <16384>
+2021-09-30 10:20:45:[GL          ] Texture max units <16>
+2021-09-30 10:20:45:[Window      ] auto add sdl2 input provider
+2021-09-30 10:20:45:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 10:20:45:[Text        ] Provider: sdl2
+2021-09-30 10:20:45:[GL          ] NPOT texture support is available
+2021-09-30 10:20:46:[GL          ] Unpack subimage support is available
+2021-09-30 10:20:47:[Base        ] Start application main loop
+2021-09-30 10:20:48:Full-Scan Process Started !!
+2021-09-30 10:20:48:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 10:27:54:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_2.txt
+2021-09-30 10:27:54:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 10:27:54:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 10:27:54:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 10:27:54:[Kivy        ] v2.0.0
+2021-09-30 10:27:54:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 10:27:54:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 10:27:54:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 10:27:54:[KivyMD      ] v0.104.1
+2021-09-30 10:27:54:[Factory     ] 186 symbols loaded
+2021-09-30 10:27:54:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 10:27:55:[Window      ] Provider: sdl2
+2021-09-30 10:27:55:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 10:27:55:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 10:27:55:[GL          ] Backend used <angle_sdl2>
+2021-09-30 10:27:55:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:27:55:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 10:27:55:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 10:27:55:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 10:27:55:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 10:27:55:[GL          ] Texture max size <16384>
+2021-09-30 10:27:55:[GL          ] Texture max units <16>
+2021-09-30 10:27:55:[Window      ] auto add sdl2 input provider
+2021-09-30 10:27:55:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 10:27:55:[Text        ] Provider: sdl2
+2021-09-30 10:27:55:[GL          ] NPOT texture support is available
+2021-09-30 10:27:55:[GL          ] Unpack subimage support is available
+2021-09-30 10:27:57:[Base        ] Start application main loop
+2021-09-30 10:27:58:Full-Scan Process Started !!
+2021-09-30 10:27:58:[Act_Drivers ] ['C:/', 'D:/']
+2021-09-30 14:59:00:[Logger      ] Record log in C:\Users\Sankar_Senthil\.kivy\logs\kivy_21-09-30_0.txt
+2021-09-30 14:59:00:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+2021-09-30 14:59:00:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+2021-09-30 14:59:00:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+2021-09-30 14:59:00:[Kivy        ] v2.0.0
+2021-09-30 14:59:00:[Kivy        ] Installed at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+2021-09-30 14:59:00:[Python      ] v3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+2021-09-30 14:59:00:[Python      ] Interpreter at "C:\Users\Sankar_Senthil\AppData\Local\Programs\Python\Python37\python.exe"
+2021-09-30 14:59:00:[KivyMD      ] v0.104.1
+2021-09-30 14:59:00:[Factory     ] 186 symbols loaded
+2021-09-30 14:59:01:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2021-09-30 14:59:01:[Window      ] Provider: sdl2
+2021-09-30 14:59:01:[Window      ] Activate GLES2/ANGLE context
+2021-09-30 14:59:02:[GL          ] Using the "OpenGL" graphics system
+2021-09-30 14:59:02:[GL          ] Backend used <angle_sdl2>
+2021-09-30 14:59:02:[GL          ] OpenGL version <b'OpenGL ES 3.0.0 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 14:59:02:[GL          ] OpenGL vendor <b'Google Inc.'>
+2021-09-30 14:59:02:[GL          ] OpenGL renderer <b'ANGLE (AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0)'>
+2021-09-30 14:59:02:[GL          ] OpenGL parsed version: 3, 0
+2021-09-30 14:59:02:[GL          ] Shading version <b'OpenGL ES GLSL ES 3.00 (ANGLE 2.1.13739 git hash: 385fb40fd460)'>
+2021-09-30 14:59:02:[GL          ] Texture max size <16384>
+2021-09-30 14:59:02:[GL          ] Texture max units <16>
+2021-09-30 14:59:02:[Window      ] auto add sdl2 input provider
+2021-09-30 14:59:02:[Window      ] virtual keyboard not allowed, single mode, not docked
+2021-09-30 14:59:02:[Text        ] Provider: sdl2
+2021-09-30 14:59:02:[GL          ] NPOT texture support is available
+2021-09-30 14:59:03:[GL          ] Unpack subimage support is available
+2021-09-30 14:59:04:[Base        ] Start application main loop
+2021-09-30 14:59:26:Full-Scan Process Started !!
+2021-09-30 14:59:26:[Act_Drivers ] ['C:/', 'D:/']

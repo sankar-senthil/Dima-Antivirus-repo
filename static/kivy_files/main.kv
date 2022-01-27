@@ -1,0 +1,1662 @@
+#:kivy 2.0.0
+#:import Factory kivy.factory.Factory
+#:import utils Empx.utils
+#:import Thread threading.Thread
+#:import time time
+#:import gc gc
+
+#### for Drag Option
+<DragOption>:
+
+####  Main Class Contain all the widgets and functions 
+<AntivirusGUI>:
+    ####  Main Image background Canvas 
+    canvas.before:
+        Color:
+            rgba:1,1,1,1
+        BorderImage:
+            source:root.AV_BG_IMG
+            size: self.size 
+            pos:self.pos
+
+    canvas:
+        Color:
+            rgba:1,1,1,0.15
+        RoundedRectangle:
+            size:self.width/1.95,self.height/5.7
+            pos:self.x+420,self.y+325
+            radius: [(20, 20), (20, 20), (20, 20), (20, 20)]
+        RoundedRectangle:
+            size:self.width/1.95,self.height/5.7
+            pos:self.x+420,self.y+155
+            radius: [(20, 20), (20, 20), (20, 20), (20, 20)]
+
+        
+    Widget:
+        id:histroy_activity_canvas
+        radius: [(0, 0), (20, 20), (20, 20), (20, 20)]
+        canvas:
+            Color:
+                rgba:1,1,1,0.2     
+            RoundedRectangle:
+                size:self.width/1.95,self.height/6.3
+                pos:self.x+420,self.y+20
+                radius: self.radius
+    Widget:
+        id:last_activity_rectangle
+        canvas.after:
+            Color:
+                rgba:1,1,1,0.2
+            RoundedRectangle: 
+                size:self.width/9.2,self.height/25
+                pos:self.x+420,self.y+115
+                radius: [(10, 10), (10, 10), (0, 0), (0, 0)]
+   
+    Widget:
+        id:history_rectangle
+        canvas.after:
+            Color:
+                rgba:1,1,1,0.2
+            RoundedRectangle:
+                size:self.width/9.2,self.height/25
+                
+                pos:self.x+630,self.y+115
+                radius: [(10, 10), (10, 10), (0, 0), (0, 0)]
+
+    Widget:
+        id:action_rectangle
+        canvas.after:
+            Color:
+                rgba:1,1,1,0.2
+            RoundedRectangle: 
+                size:self.width/9.2,self.height/25
+                pos:self.x+525,self.y+115
+                radius: [(10, 10), (10, 10), (0, 0), (0, 0)]
+
+
+
+
+
+
+####  ********** OS function *************
+
+
+    Image:
+        source:root.BRAND_ICON
+        size_hint:.06,.06
+        pos_hint:{'x':0.015,'y':0.92}
+        allow_stretch: True
+
+    Label_AV:
+        color:1,1,1,1
+        text:"Dima Antivirus"
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.105,'y':0.91}
+        font_size:self.height/3.5
+
+    Label_AV:
+        color:1,1,1,1
+        text:root.av_version
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.18,'y':0.91}
+        font_size:self.height/4.25
+
+    Image:
+        source:root.PRODUCT_LOGO
+        size_hint:.4,.47
+        pos_hint:{'x':0.02,'y':0.3}
+        allow_stretch: True
+
+
+    Label_AV:
+        # id: real_time_caps
+        color:1,1,1,1
+        text:"V I R U S  D E F E N D E R"
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.2,'y':0.8}
+        font_size:self.height/2
+        font_name:root.font_path+'Montserrat-Medium.ttf'
+        
+
+    Label_AV:
+        color:255/255,130/255,67/255,255/255
+        text:"Anti Virus"
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.2,'y':0.22}
+        font_size:self.height
+
+    Image:
+        id:real_time_on_logo
+        source:root.realtime_shield_on
+        size_hint:.12,.12
+        pos_hint:{'x':0.43,'y':0.8}
+        allow_stretch: True
+    Image:
+        id:real_time_off_logo
+        source:root.realtime_shield_off
+        size_hint:.12,.12
+        pos_hint:{'x':0.43,'y':0.8}
+        allow_stretch: True
+    Image:
+        id:Licence_exp_logo
+        source:root.licence_exp
+        size_hint:.12,.12
+        pos_hint:{'x':0.43,'y':0.8}
+        allow_stretch: True
+        
+    # Label_AV:
+    #     # id: real_time_caps
+        
+    #     text:"Your Computer is Not Secure !" 
+    #     color:1,1,1,1
+    #     size_hint:0.04,0.08
+    #     pos_hint:{'x':0.695,'y':0.84}
+    #     font_size:self.height/2.1
+
+    Label_AV:
+        id: real_time_caps
+        size_hint:0.025,0.08
+        # color:1,1/255,7/255,1
+        color:1,1,1,1
+        pos_hint:{'x':0.68,'y':0.84}
+        font_size:self.height/2.1
+
+   
+        
+    Label_AV:
+        id: real_time_caps_small
+        color:1,1,1,1
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.66,'y':0.79}
+        font_size:self.height/3.4 
+
+    Label_AV:
+        color:1,1,1,0.6
+        text:"[b]REAL TIME PROTECTION[/b]" 
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.194,'y':0.13}
+        font_size:self.height/3.3      
+
+    Label_AV:
+        color:1,1,1,0.7
+        text:"[b]OFF                  ON[/b]" 
+        size_hint:0.028,0.07
+        pos_hint:{'x':0.192,'y':0.085}
+        font_size:self.height/3.6
+
+    ImageButton_AV:
+        id:monitoring_button_on 
+        source:root.realtime_toggle_on
+        size_hint:0.057,0.057 
+        pos_hint:{'x':0.18,'y':0.095}
+        on_press:root.real_time_protection()
+
+    ImageButton_AV:
+        id:monitoring_button_off 
+        source:root.realtime_toggle_off
+        size_hint:0.057,0.057 
+        pos_hint:{'x':0.18,'y':0.095}
+        on_press:root.real_time_protection()
+    
+    Label_AV:
+        id:progress
+        color:1,1,1,0.7 
+        text:"Progress:" 
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+        font_name:root.font_path+'Montserrat-Medium.ttf'
+        
+
+    Label_AV:
+        id:progress_value
+        color:220/225,113/225,39/225
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+
+    Label_AV:
+        id:estimated_time
+        color:1,1,1,0.7 
+        text:"Estimated Time:" 
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+
+    Label_AV:
+        id:estimated_time_value
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+
+    Label_AV:
+        id:scanned_files
+        color:1,1,1,0.7
+        text:"Scanned:" 
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+         
+    Label_AV:
+        id:scanned_files_value
+        color:1,1,1,0.7
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+
+    Label_AV:
+        id:threats  
+        color:1,1,1,0.7
+        text:"Threats:" 
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+
+    Label_AV:
+        id:threats_value
+        color:0,1,1,1
+        size_hint:0.0287,0.07
+        font_size:self.height/3
+
+    ProgressBar:
+        id:progressbar_id
+        size_hint_x:.46 
+        canvas:
+            BorderImage:
+                source: root.Progress_bar_back
+                border: (6,6,6,6)
+                size: self.width, 5.5
+                pos: self.x, self.center_y - 2.75
+            BorderImage:
+                source:root.Progress_bar_front
+                border: [int(min(self.width * (self.value / float(self.max)) if self.max else 0, 2.75))] * 4
+                size: self.width * (self.value / float(self.max)) if self.max else 0, 5.5
+                pos: self.x, self.center_y - 2.75
+                
+                
+
+    Label_AV:
+        id:path_object
+        size_hint:0.0287,0.07
+        font_size:self.height/3.7
+
+    ##### dmi 
+    Label_AV:
+        id:progress_dm
+        color:1,1,1,0.5 
+        text:"Progress:" 
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.555,'y':0.64}
+        font_size:self.height/3
+        
+    Label_AV:
+        id:progress_value_dm
+        color:1,1,1,0.5 
+        text:"NA"
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.63,'y':0.64}
+        font_size:self.height/3
+        
+    Label_AV:
+        id:estimated_time_dm
+        color:1,1,1,0.5
+        text:"Estimated Time:" 
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.53,'y':0.6}
+        font_size:self.height/3 
+        
+
+    Label_AV:
+        id:estimated_time_value_dm
+        color:1,1,1,0.5
+        text:"NA"
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.63,'y':0.6}
+        font_size:self.height/3
+        
+
+    Label_AV:
+        id:scanned_files_dm
+        color:1,1,1,0.5 
+        text:"Scanned:" 
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.77,'y':0.64}
+        font_size:self.height/3
+        
+
+    Label_AV:
+        id:scanned_files_value_dm
+        color:1,1,1,0.5
+        text:"NA"
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.83,'y':0.64}
+        font_size:self.height/3        
+
+    Label_AV:
+        id:threats_dm 
+        color:1,1,1,0.5
+        text:"Threats:" 
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.772,'y':0.6}
+        font_size:self.height/3
+        
+
+    Label_AV:
+        id:threats_value_dm
+        color:1,1,1,0.5
+        text:"NA"
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.83,'y':0.6}
+        font_size:self.height/3
+
+    ProgressBar:
+        id:progressbar_id_dm
+        size_hint_x:.46 
+        pos_hint:{'x':0.475,'y':0.1}
+        canvas:
+            Color:
+                rgba:1,1,1,0.5
+            BorderImage:
+                border: (6,6,6,6)
+                pos: self.x, self.center_y - 2.75
+                size: self.width, 5.5
+                source: root.Progress_bar_back
+            BorderImage:
+                border: [int(min(self.width * (self.value / float(self.max)) if self.max else 0, 2.75))] * 4
+                pos: self.x, self.center_y - 2.75
+                size: self.width * (self.value / float(self.max)) if self.max else 0, 5.5
+                source:root.Progress_bar_front
+
+     
+
+    ####  ********** Full Scan Widgets *************
+    Label_AV:
+        color:1,1,1,1
+        text:"FULL SCAN"
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.483,'y':0.715}
+        font_size:self.height/2.8
+        
+    
+    ImageButton_AV:
+        id:start_full_scan
+        source:root.startscan_btn_image
+        size:self.size
+        on_press:root.full_scan()
+        pos_hint:{'x':.63,'y':.72}
+        
+   
+                
+            
+    ####  ********** Custom Scan Widgets ************* 
+    Label_AV:
+        color:1,1,1,1
+        text:"CUSTOM SCAN"
+        size_hint:0.025,0.08
+        pos_hint:{'x':0.50,'y':0.43}
+        font_size:self.height/2.8
+
+    ImageButton_AV:
+        id:start_custom_scan
+        source:root.startscan_btn_image
+        size:self.size
+        pos_hint:{'x':.63,'y':.435}
+        on_press:root.custom_scan()
+        # HoverBehavior:
+        #     on_enter:Factory.Table.mouse_cursor(True)
+        #     on_leave:Factory.Table.mouse_cursor(False)
+
+    ImageButton_AV:
+        id:stop_custom_scan
+        source:root.stopscan_btn_image
+        size:self.size
+        pos_hint:{'x':.84,'y':.435}
+        on_press:
+            object_data = Factory.Stop_scan_popup()
+            object_data.open()
+            utils.GeneralMethods.close_popup(object_data)
+
+    TextInput_AV:
+        id:browse_path_text
+        hint_text:'Choose your path'
+        size_hint:.44,.05
+        pos_hint:{'x':0.48,'y':0.35}
+        font_size:self.height/2.2
+        
+    Image:
+        id:check_box
+        source:root.checkbox_background
+        size_hint:.034,.034
+        pos_hint:{'x':0.58,'y':0.285}
+        allow_stretch: True
+
+    Image:
+        id:check_box1
+        source:root.checkbox_background
+        size_hint:.034,.034
+        pos_hint:{'x':0.69,'y':0.285} 
+        allow_stretch: True
+
+    ImageButton_AV:
+        id: file_box_tick
+        source:root.tick_mark
+        size_hint:.025,.027
+        pos_hint:{'x':0.585 ,'y':0.29} 
+        on_press:root.Browse_option('File')
+
+    ImageButton_AV:
+        id: folder_box_tick
+        source:root.tick_mark
+        size_hint:.025,.027
+        pos_hint:{'x':0.695 ,'y':0.29} 
+        on_press:root.Browse_option('Folder')
+
+    Label_AV:
+        id:file_label
+        color:1,1,1,1 
+        text:'File'
+        size_hint:0.035,0.035
+        font_size:self.height/1.4
+        pos_hint:{'x':0.62,'y':0.285}
+        
+
+    Label_AV:
+        id:folder_label
+        color:1,1,1,1 
+        text:'Folder'
+        size_hint:0.035,0.035
+        pos_hint:{'x':0.74,'y':0.285}
+        font_size:self.height/1.4
+        
+    ImageButton_AV:
+        id:Browse_btn
+        source:root.browse_btn_image
+        size_hint:.09,.06
+        pos_hint:{'x':.84,'y':.27}
+        on_press:root.Browse_option('open')
+
+
+    ####  ********** license Widgets ************* 
+
+
+    #### ********* History *************
+
+
+    MenuButton: 
+        id:last_activity
+        text:'LAST ACTIVITY'
+        pos_hint:{'x':0.46,'y':0.18} 
+        on_press:root.lastactivity_history_action_show('last_activity')
+
+    MenuButton:
+        id:history
+        text:'HISTORY'
+        pos_hint:{'x':0.68,'y':0.18} 
+        on_press:root.lastactivity_history_action_show('history')
+        markup:True
+
+    MenuButton:
+        id:settings
+        text:'SETTINGS'
+        pos_hint:{'x':0.57,'y':0.18} 
+        on_press:root.lastactivity_history_action_show('settings')
+
+
+    Label_AV:
+        id:last_scan
+        text: 'Last Scan:'
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.54,'y':0.1}
+        font_size:self.height/3
+        font_name:root.font_path+'Montserrat-Medium.ttf'
+        color:1,1,1,0.7 
+
+    Label_AV:
+        id:last_scan_value
+        color:1,1,1,1
+        text:'[color=#08fcfc]NA'
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.61,'y':0.1}
+        font_size:self.height/3
+
+    Label_AV:
+        id:threat
+        color:1,1,1,0.7
+        text:"Threats:"
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.547,'y':0.05} #'x':0.638
+        font_size:self.height/3
+
+    Label_AV:
+        id:threat_value
+        color:1,1,1,0.7
+        text:'[color=#08fcfc]NA'
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.61,'y':0.05} #'x':0.638
+        font_size:self.height/3
+
+    Label_AV:
+        id:last_scanned_files
+        color:1,1,1,0.7
+        text:"Scanned Files:"
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.75,'y':0.05}
+        font_size:self.height/3
+    
+    Label_AV:
+        id:last_scanned_files_value
+        color:1,1,1,0.7
+        text:'[color=#08fcfc]NA'
+        size_hint:0.0287,0.07
+        pos_hint:{'x':0.83,'y':0.05} #'x':0.638
+        font_size:self.height/3
+        
+    ImageButton_AV:
+        id:activityarrow_backward
+        source:root.activity_arrow_backward
+        size_hint:.04,.04
+        pos_hint:{'x':.45,'y':.085}
+        on_press:
+            self.opacity = 0.5
+            root.History_options('backward')
+        on_release:
+            time.sleep(0.1)
+            self.opacity = 1
+        
+    ImageButton_AV:
+        id:activityarrow_forward
+        source:root.activity_arrow_forward
+        size_hint:.04,.04
+        pos_hint:{'x':.92,'y':.085}
+        on_press:
+            self.opacity = 0.5
+            root.History_options('forward')
+        on_release:
+            time.sleep(0.1)
+            self.opacity = 1 
+
+    ####  ********** Log Files Widgets ************* 
+
+    Label_AV:
+        id:select_date_text
+        color:0,1,1,1 
+        text:'[b][color=#33f3ef]Select Date :'
+        size_hint:0.035,0.035
+        pos_hint:{'x':0.54,'y':0.124}
+        font_size:self.height/1.4
+         
+    TextInput_AV:
+        id:from_date_textinput
+        size_hint:0.095,0.038
+        pos_hint:{'x':0.62 ,'y':0.12}    
+        font_size:self.height/2.2
+       
+    TextInput_AV:
+        id:to_date_textinput
+        size_hint:0.095,0.038
+        pos_hint:{'x':0.765  ,'y':0.12}    
+        font_size:self.height/2.2
+
+    ImageButton_AV:
+        id:from_date_dropdown_btn
+        source:root.datepicker_drop_btn_image
+        size_hint:0.035,0.045
+        pos_hint:{'x':0.689 ,'y':0.116}
+        on_press:root.datepicker('from')
+
+    ImageButton_AV:
+        id:to_date_dropdown_btn
+        source:root.datepicker_drop_btn_image
+        size_hint:0.035,0.045
+        pos_hint:{'x':0.837,'y':0.116}
+        on_press:root.datepicker('to')
+        
+    ImageButton_AV:
+        id:file_downloadicon_button
+        source:root.file_open
+        size_hint:0.04,0.05 
+        pos_hint:{'x':0.88,'y':0.05}
+        on_press:
+            self.opacity = 0.5 
+            root.download_file_view()
+        on_release:
+            time.sleep(0.1)
+            self.opacity = 1
+        
+    Label_AV:
+        id:download_icon_label
+        color:0,1,1,1  
+        size_hint:0.035,0.035
+        pos_hint:{'x':0.6,'y':0.05}
+        font_size:self.height/1.7   
+
+    #### ___AV Widgets Ends___   
+    ImageButton_AV:
+        id:Minimise_Button
+        source:root.app_mini_icon
+        size_hint:.05,.05
+        pos_hint:{'x':.909,'y':.925}
+        on_press:root.default_os_functions('minimize') 
+
+
+    #### THE DRAG OPTION SHOULD BE IN LAST
+    DragOption:
+        size_hint:0,0
+        background_color:  0,0,0,0
+
+    ImageButton_AV:
+        id:stop_full_scan
+        source:root.stopscan_btn_image
+        size:self.size
+        pos_hint:{'x':.84,'y':.72} 
+        on_press:
+            object_data = Factory.Stop_scan_popup()
+            object_data.open()
+            utils.GeneralMethods.close_popup(object_data)
+    
+    ImageButton_AV:
+        id:close_hide_Button
+        source:root.app_close_hide_icon
+        size_hint:.05,.05
+        pos_hint:{'x':.94,'y':.925}
+        on_press:root.default_os_functions('window_hide')
+
+    Label:
+        id:lic_remain_days
+        text:'License Expires in '+str(Factory.AntivirusGUI.lic_remain_days())+' Days' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int else 'Check License'
+        color:1,1,1,1  
+        size_hint:0.035,0.035
+        pos_hint:{'x':0.8,'y':0.925}
+        font_size:self.height/2
+        font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+
+    RelativeLayout:
+        
+        ImageButton_AV:
+            id:Quarantine_button
+            source:root.quarantine_icon
+            size_hint:.055,.055
+            pos_hint:{'x':.48,'y':.09}
+
+            on_press:
+                self.opacity = 0.5
+               
+            on_release:
+                time.sleep(0.1)
+                if True:\
+                Factory.Table.pagination_num_value_maintainer('clean');\
+                Factory.Table.pagination_status = True;\
+                Action_root = Factory.Action_popup();\
+                Action_root.open();\
+                utils.GeneralMethods.close_popup(Action_root)
+                self.opacity = 1
+                
+
+        ImageButton_AV:
+            id:License_button
+            source:root.Licence_icon
+            size_hint:.055,.055
+            pos_hint:{'x':.6,'y':.09}
+            on_press:
+                self.opacity = 0.5
+               
+            on_release:
+                time.sleep(0.1)
+                object_data = Factory.license_popup()
+                object_data.open()
+                utils.GeneralMethods.close_popup(object_data)
+                self.opacity = 1
+
+        ImageButton_AV:
+            id:update_button
+            source:root.update_icon
+            size_hint:.055,.055
+            pos_hint:{'x':.73,'y':.09}
+            on_press:
+                self.opacity = 0.5
+                
+            on_release:
+                utils.GeneralMethods.initial_loads()
+                time.sleep(0.1)
+                # self.opacity = 1
+                object_data = Factory.Update_popup()
+                object_data.open()
+                utils.GeneralMethods.close_popup(object_data)
+                self.opacity = 1
+        Image:
+            id:update_msg
+            source:root.update_msg_icon
+            size_hint:.03,.03
+            pos_hint:{'x':.76,'y':.12} 
+            allow_stretch: True
+
+
+        Image:
+            id:Licence_key_msg
+            source:root.update_msg_icon
+            size_hint:.03,.03
+            pos_hint:{'x':.63,'y':.12} 
+            allow_stretch: True
+
+        Image:
+            id:Quarantine_msg
+            source:root.update_msg_icon
+            size_hint:.03,.03
+            pos_hint:{'x':.515,'y':.12} 
+            allow_stretch: True
+        
+
+        ImageButton_AV:
+            id:support_button
+            source:root.support_icon
+            size_hint:.055,.055
+            pos_hint:{'x':.86,'y':.09}
+            on_press:
+                self.opacity = 0.5
+            on_release:
+                time.sleep(0.1)
+                import webbrowser
+                webbrowser.open("https://emperor2.dimabusiness.com/techsupport") 
+                self.opacity = 1
+
+        Label_AV:
+            id:Settings_icon_label
+            text:"  Quarantine                  License                         Update                         Support"
+            color:0,1,1,1  
+            size_hint:0.035,0.035
+            pos_hint:{'x':0.675,'y':0.05}
+            font_size:self.height/1.7  
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+
+        Label:
+            id:Up_Down_Static
+            color:0,1,1,0.5  
+            size_hint:0.035,0.035
+            pos_hint:{'x':0.09,'y':0.06}
+            font_size:self.height/1.7
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+
+        Label:
+            id:Up_Down_Dynamic
+            color:1,1,1,0.5  
+            size_hint:0.035,0.035
+            pos_hint:{'x':0.12,'y':0.03}
+            font_size:self.height/1.7
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+
+        Label:
+            id:Up_Down_after_txt
+            color:1,1,1,0.5  
+            size_hint:0.035,0.035
+            pos_hint:{'x':0.14,'y':0.045}
+            font_size:self.height/1.7
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+
+        
+    
+    ImageButton_AV:
+        id:log_download_btn
+        source:root.download_btn_image
+        size:self.size
+        pos_hint:{'x':.77,'y':.04}
+        on_press:
+            self.opacity = 0.5
+            root.log_downloader('txt')
+        on_release:
+            time.sleep(0.1)
+            self.opacity = 1
+    ImageButton_AV:
+        id:after_update_btn
+        source:root.filedownload_btn_image
+        size_hint:0.04,0.05 
+        pos_hint:{'x':.04,'y':.04}
+        on_press:
+            root.after_update_fun()
+
+    
+#### ___________Templates__________  
+
+####  image button Template  
+<ImageButton_AV@HovBtn>:
+    background_normal: '' 
+    border_radius:[10]
+    background_color:  0,0,0,0
+    size_hint:.10,.07
+    source:None
+    markup:True
+    
+
+
+    
+    
+    Image:
+        source:root.source
+        pos:self.parent.pos
+        size:self.parent.size
+        allow_stretch: True
+        
+
+<MenuButton@HovBtn>:
+    background_color:1,1,1,0
+    size_hint:0.085,0.055 
+    font_size:self.height/2.7
+    font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+    markup:True
+
+####  TextInput Template 
+<TextInput_AV@Hovtext>:    
+    multiline: False
+    font_size:self.height/1.8 
+    font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf' 
+    readonly: True 
+    markup:True 
+
+
+####  Label Template 
+<Label_AV@Label>:
+    font_size:self.height/1.4
+    font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'  
+    markup:True 
+
+<Scan_SorNO_Button@HovBtn>:
+    width: 80
+    height: 30
+    size_hint: None,None
+    title_font:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+    background_normal: '' 
+    border_radius:[10]
+    background_color:  0,0,0,0
+    markup:True
+    source:None
+    Image:
+        source:root.source
+        pos:self.parent.pos
+        size:self.parent.size
+        allow_stretch: True
+
+
+<Stop_scan_popup@Popup>:
+    title:"Are you sure You want to stop the scan..!"
+    separator_height: 0  
+    size_hint:0.3,0.17
+    title_size: '14sp'
+    auto_dismiss: False
+    title_color:1,1,1,1#220/255,113/255,39/255,255/255
+    title_align:'center'
+    title_font:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+    # background:Factory.AntivirusGUI.Progress_bar_back
+    background:Factory.AntivirusGUI.Grey
+    opacity:0.9
+    canvas.after:
+        Color:
+            rgba: 220/255,113/255,39/255,255/255
+        Line:
+            width: 2.5
+            rectangle: self.x, self.y, self.width, self.height
+    on_open:
+        print(gc.collect())
+
+    on_dismiss:
+        self.clear_widgets()
+        self.remove_widget(self)
+
+    GridLayout:
+        cols:5
+        size_hint: 1,1
+        # orientation: 'horizontal'
+        Label:
+            text:''
+        Scan_SorNO_Button:
+            text:"[color=#33f3ef][b]Yes"
+            on_release:root.dismiss()
+            source:Factory.AntivirusGUI.scanyes_IMG
+            on_press:
+                self.opacity = 0.5
+                Factory.AntivirusGUI.stop_scan_classmethod(True)
+            on_release:
+                time.sleep(0.1)
+                self.opacity = 1
+        Label:
+            text:''
+            width: 30
+            height: 30
+        Scan_SorNO_Button:
+            text:"[color=#33f3ef][b]No"
+            on_release:
+                root.dismiss()
+                utils.GeneralMethods.popup_object_data.dismiss(force=True)
+                
+            source:Factory.AntivirusGUI.scanno_IMG
+            
+        Label:
+            text:''
+        DragOption:
+            size_hint:0,0
+            background_color:  0,0,0,0
+
+
+<HovBtn>:
+
+<OTP_popup>:
+    title:"Step-2: OTP Verification"
+    title_align:'center'
+    separator_height: 0  
+    title_size: '18sp'
+    size_hint:0.5,0.5
+    title_color:220/255,113/255,39/255,255/255
+    title_font:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+    # background:Factory.AntivirusGUI.Progress_bar_back
+    background:Factory.AntivirusGUI.Grey
+    opacity:0.9
+    markup:True
+    canvas.after:
+        Color:
+            rgba: 220/255,113/255,39/255,255/255
+        Line:
+            width: 3
+            rectangle: self.x, self.y, self.width, self.height
+
+    on_open:
+        print(gc.collect())
+    on_dismiss:
+        self.clear_widgets()
+        self.remove_widget(self)
+   
+    FloatLayout:
+        Label:
+            text:"OTP successfully sent to your Registered Email-ID\n              "+' '*utils.GeneralMethods.email_count+"( "+utils.GeneralMethods.usr_email+" )\n        This is usable once and valid for 30 mins"
+            size_hint:0.5,0.5
+            color:1,1,1,0.7
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+            pos_hint:{"x":0.25,"y":0.7}
+            font_size:self.height/9
+            markup:True
+
+        Label:
+            id:otp_warning 
+            text:"[color=#51ff0d]Enter your OTP"
+            size_hint:0.5,0.5
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+            pos_hint: {'center_x': 0.5, 'center_y': 0.75}
+            color:220/255,113/255,39/255,255/255
+            font_size:self.height/6
+            markup:True
+
+        Label:
+            text:"eg, 4444"
+            size_hint:0.5,0.5
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+            pos_hint: {'center_x': 0.5, 'center_y': 0.41}
+            color:1,1,1,0.7
+            font_size:self.height/9
+            markup:True
+
+        OTP_TXTInput:
+            id:OTP_Textinput
+            markup:True 
+            hint_text:' OTP'
+            size_hint:0.3,0.18
+            pos_hint: {'center_x': 0.5, 'center_y': 0.55}
+            font_size:self.height/1.8
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+            multiline:False
+            padding_x: 35
+            
+        HovBtn:
+            id:resend_otp_btn
+            size_hint:0.2,0.15
+            pos_hint: {'center_x': 0.5, 'center_y': 0.28}
+            background_color:0,0,0,0
+            background_normal: ''
+            markup:True
+            font_size: self.height/2.7
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+            on_touch_down:
+                touch = args[1]
+                if self.collide_point(*touch.pos):\
+                self.opacity = 0.4
+            on_touch_up:
+                touch = args[1]
+                if self.collide_point(*touch.pos):\
+                self.opacity = 1
+            on_release:
+                self.opacity = 1
+                root.ids['resend_otp_btn'].text = '[color=#51ff0d]'+str(root.sec)+' s'
+                root.OTP_Sec_fn()
+                utils.GeneralMethods.send_otp()
+               
+        HovBtn: 
+            text:'Verify & Proceed'
+            size_hint:0.8,0.15
+            pos_hint: {'center_x': 0.5, 'center_y': 0.1}
+            background_color:0,1,1,0.7#0, 106/255, 249/255
+            background_normal: ''
+            font_size: self.height/2.7
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+            on_touch_down:
+                touch = args[1]
+                if self.collide_point(*touch.pos):\
+                self.opacity = 0.4
+            on_touch_up:
+                touch = args[1]
+                if self.collide_point(*touch.pos):\
+                self.opacity = 1
+            canvas.after:
+                Color:
+                    rgba: 0,0,0,1
+                Line:
+                    width: 1
+                    rectangle: self.x, self.y, self.width, self.height
+            on_press:
+                result = False
+                otp = root.ids['OTP_Textinput'].text[:4]
+                root.ids['OTP_Textinput'].text = otp
+                if not otp.isnumeric():\
+                root.ids['otp_warning'].text = '[color=#ff073a]Please Enter a Valid OTP'
+                if otp.isnumeric():\
+                result = utils.GeneralMethods.verify_otp(otp)
+                root.dismiss() if result == True else ''
+                if type(result) == str:\
+                root.ids['otp_warning'].text = result
+
+<license_popup@Popup>:
+    title:"Step-1: Product Key Verification"
+    title_align:'center'
+    separator_height: 0  
+    title_size: '18sp'
+    size_hint:0.5,0.5
+    title_color:220/255,113/255,39/255,255/255
+    title_font:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+    # background:Factory.AntivirusGUI.Progress_bar_back
+    background:Factory.AntivirusGUI.Grey
+    opacity:0.9
+    canvas.after:
+        Color:
+            rgba: 220/255,113/255,39/255,255/255
+        Line:
+            width: 3
+            rectangle: self.x, self.y, self.width, self.height
+
+    on_open:
+        print(gc.collect())
+    on_dismiss:
+        self.clear_widgets()
+        self.remove_widget(self)
+   
+    FloatLayout:
+
+        Label:
+            text:"License Key"
+            size_hint:0.5,0.5
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+            pos_hint:{"x":-0.14,"y":0.4}
+            color:220/255,113/255,39/255,255/255
+            font_size:self.height/9
+            markup:True
+
+        Label:
+            text:"\n           [ref=https://dimabusiness.com/][u][color=#08fcfc][b]DIMA Business Solutions Pvt. Ltd[/b][/ref][/u][/color] is to provide the best internet \nsecurity solution that benefits every organization using the Internet.\nDIMA Antivirus is powered by DIMA Emperor.\n\n[b]To Activate the license Key  [ref=https://antivirus1.dimabusiness.com/accounts/signup/user/][u][color=#08fcfc]Click Here[/u][/color][/ref]"
+            size_hint:0.5,0.5
+            pos_hint:{"x":0.25,"y":0.65}
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+            font_size:self.height/9.75
+            color:1,1,1,1
+            on_ref_press:
+                import webbrowser
+                webbrowser.open(args[1])
+            markup:True
+
+        Label:
+            id:license_label
+            text: '[color=#51ff0d]Verified Licence' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else '[color=#F50C0C]* Enter Your Licence key'
+            markup:True
+            color:0,0,0,1
+            size_hint:0.5,0.5
+            pos_hint:{"x":0.01,"y":-0.17}
+            font_size:self.height/9
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+
+
+        MyTextInput:
+            id:license_Textinput
+            markup:True 
+            hint_text:'Enter Your Licence'
+            size_hint:0.98,0.3
+            pos_hint:{"x":0.02,"y":0.27}
+            font_size:self.height/4.5
+            text:len(utils.GeneralMethods.Auth_table_dict['serial_key'])*'X' if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int  else ''
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+
+        HovBtn:
+            text:'Get OTP'
+            size_hint:0.18,0.14
+            pos_hint:{"x":0.78,"y":0}
+            background_color:0,1,1,0.6#0, 106/255, 249/255
+            background_normal: ''
+            font_size: self.height/2.3
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+            on_release:
+                result = utils.GeneralMethods.licence_popup_func(root.ids['license_Textinput'].text)
+                time.sleep(0.1)
+                Factory.AntivirusGUI.settings_status = True
+                if not utils.GeneralMethods.lickey_status :\
+                root.ids['license_label'].text = "[color=#f21a1d]*InValid Lisense Key' ?"
+                if type(utils.GeneralMethods.lickey_status) == str:\
+                root.ids['license_label'].text = utils.GeneralMethods.lickey_status
+                if result == True:\
+                time.sleep(1);\
+                Factory.OTP_popup().open();\
+                root.dismiss()
+
+        HovBtn:
+            text:'Cancel'
+            size_hint:0.18,0.14
+            pos_hint:{"x":0.57,"y":0}
+            background_color:0,1,1,0.6#0, 106/255, 249/255
+            background_normal: ''
+            font_size: self.height/2.3
+            font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+            on_press:
+                root.dismiss(force=True,animation = False)
+                utils.GeneralMethods.popup_object_data.dismiss(force=True)
+                
+        # GridLayout:
+        #     cols:3
+        #     size_hint: 0.38,0.12
+        #     pos_hint:{"x":0.55,"y":0}
+        #     # SHovBtn:
+        #     #     text:"Cancel"
+        #     #     size_hint_x:0.9
+        #     #     on_press:
+        #     #         root.dismiss(force=True,animation = False)
+        #     #         utils.GeneralMethods.popup_object_data.dismiss(force=True)
+            
+                    
+        #     Label:
+        #         text:''
+        #         size_hint_x:0.15
+        #     SHovBtn:
+        #         text:"Get OTP"                    
+        #         on_release:
+        #             result = utils.GeneralMethods.licence_popup_func(root.ids['license_Textinput'].text)
+        #             time.sleep(0.1)
+        #             Factory.AntivirusGUI.settings_status = True
+        #             if not utils.GeneralMethods.lickey_status :\
+        #             root.ids['license_label'].text = "[color=#f21a1d]*InValid Lisense Key' ?"
+        #             if type(utils.GeneralMethods.lickey_status) == str:\
+        #             root.ids['license_label'].text = utils.GeneralMethods.lickey_status
+        #             if result == True:\
+        #             time.sleep(1);\
+        #             Factory.OTP_popup().open();\
+        #             root.dismiss()
+                    
+                    
+                    
+
+                    
+<Action_popup>:
+    id:action_popup
+    title_size:'16sp'
+    size_hint:0.93,0.9
+    separator_height: '0'
+    auto_dismiss: False
+    title:" Quarantined Files (Vault)"
+    title_color:245/255,12/255,12/255,255/255
+    on_open:Factory.Table.popup_status = False
+    title_font:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+    background:Factory.AntivirusGUI.Grey
+    
+    canvas.after:
+        Color:
+            rgba: 220/255,113/255,39/255,255/255
+        Line:
+            width: 3
+            rectangle: self.x, self.y, self.width, self.height
+            
+    RelativeLayout:
+        
+        canvas:
+            Color:
+                rgba: 220/255,113/255,39/255,255/255
+            Rectangle:
+                pos:17.5,357
+                size:825.5,30
+       
+        Action_Popup_Label:
+            color:1,1,1,1
+            pos_hint:{"x":0.44,"y":0.88}
+            text:'These items have been quarantined by Dima Antivirus, They do not pose a threat when quarantined. You may\nRestore, Delete and Ignore these Items. Items deleted from quarantine will be permanently removed from \nyour computer. Dima Antivirus will automatically delete quarantined files every 30 days interval. Selecting \n" Delete All " button will delete all malicious files from the quarantine/VAULT. ' 
+           
+        Label:
+            id:virus_pathinput
+            pos_hint:{"x":0.03,"y":0.158}
+            color:0,1,1,1
+            size_hint:0.75,0.053    
+            font_size:self.height/2
+            text:Factory.Table.Virus_status_fun() if Factory.Table.Virus_status_fun() else ''
+       
+        Action_Popup_Label:
+            color:1,1,1,1
+            pos_hint:{"x":0.387,"y":0.73}
+            text:"S.No                       Date                                        Malicious Files                                              Action"
+        AnchorLayout:
+            pos_hint:{"x":0.03,"y":0.25}
+            size_hint_x:0.95
+            size_hint_y:0.5
+            canvas.before:
+                Color:
+                    rgba: 0.67,0.67,0.67,1
+                Rectangle:
+                    size:self.size
+                    pos:self.pos
+            TooltipMDIconButton:
+                on_enter:utils.GeneralMethods.tooltip_status = True 
+                on_leave:
+                    if True:\
+                    utils.GeneralMethods.tooltip_status = False;\
+                    Factory.Table.tooltip_data = ''
+                RecycleView:
+                    Table:
+                        canvas.before:
+                            Color:
+                                rgba: 0.67,0.67,0.67,1
+                            Rectangle:
+                                size:self.size
+                                pos:self.pos
+                        
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: self.minimum_height
+                        padding:10,10,10,10
+                        spacing:5 
+        
+        Action_Buttons:
+            text: 'Close'
+            pos_hint:{"x":0.15,"y":0.015}
+            size_hint_y:0.07 
+            size_hint_x:0.1
+            background_color:67/255,118/255,186/255,255/255
+            disabled : False
+            on_press:Factory.AntivirusGUI.settings_status = True
+            on_release:
+                if True:\
+                utils.GeneralMethods.popup_object_data.dismiss(force=True);\
+                root.dismiss(force=True,animation = False);\
+                Factory.Table.popup_status = True;\
+                
+                self.clear_widgets();\
+                Factory.Action_popup.thread_kill = True
+
+        Action_Buttons:
+            text: 'Refresh'
+            pos_hint:{"x":0.03,"y":0.015}
+            size_hint_y:0.07
+            size_hint_x:0.1
+            background_color:67/255,118/255,186/255,255/255
+            on_release:
+                Factory.Table.pagination_num_value_maintainer('clean')
+                Factory.Table.popup_status = True;\
+                Factory.Action_popup.thread_kill = True
+                Factory.Table.pagination_status = True
+                Factory.Table.Total_Files() 
+                Factory.AntivirusGUI.popup_open()
+
+        Action_Buttons:
+            text: 'Delete All'
+            pos_hint:{"x":0.27,"y":0.015}
+            size_hint_y:0.07
+            size_hint_x:0.1
+            background_color:226/255,100/255,86/255,255/255
+            on_press:Factory.Table.Delete_All()
+            on_release:
+                if True:\
+                Factory.Table.pagination_num_value_maintainer('clean');\
+                Factory.Table.pagination_status = True;\
+                utils.GeneralMethods.popup_object_data.dismiss();\
+                Factory.Action_popup.thread_kill = True;\
+                Factory.Table.tooltip_data = "No Virus Data"
+                Factory.Table.Total_Files() 
+                Factory.AntivirusGUI.popup_open()
+
+        Label:
+            id:pagination_value
+            text:Factory.Table.pagination_num_value_maintainer('index_data')
+            size_hint:0.05,0.05
+            pos_hint:{"x":0.86,"y":0.16}
+            color:1,1,1,1
+
+        Label:
+            text:"Total Files :"
+            size_hint:0.05,0.05
+            pos_hint:{"x":0.8,"y":0.05}
+            color:1,1,1,1
+        Label:
+            id:Total_file_count
+            text:str(Factory.Table.Encry_Count)
+            size_hint:0.05,0.05
+            pos_hint:{"x":0.88,"y":0.05}
+            color:1,1,1,1
+
+        HovBtn:
+            pos_hint:{"x":0.94,"y":0.16}
+            size_hint_y:0.05
+            size_hint_x:0.05
+            background_color:0,0,0,0
+            on_press:self.opacity = 0.5
+            on_release:
+                time.sleep(0.1)
+                self.opacity = 1
+                if True:\
+                utils.GeneralMethods.popup_object_data.dismiss();\
+                Factory.Table.pagination_status = False;\
+                Factory.Action_popup.thread_kill = True;\
+                root.ids['pagination_value'].text  = Factory.Table.pagination_num_value_maintainer('index_data')
+                time.sleep(0.2)
+                Factory.AntivirusGUI.popup_open()
+                
+            Image:
+                source:Factory.AntivirusGUI.pagination_next
+                pos:self.parent.pos
+                size:self.parent.size
+                allow_stretch: True
+        HovBtn:
+            pos_hint:{"x":0.77,"y":0.16}
+            size_hint_y:0.05
+            size_hint_x:0.05
+            background_color:0,0,0,0
+            on_press:self.opacity = 0.5
+
+            on_release:
+                time.sleep(0.1)
+                self.opacity = 1
+                if True:\
+                Factory.Table.pagination_num_value_maintainer();\
+                utils.GeneralMethods.popup_object_data.dismiss();\
+                Factory.Table.pagination_status = False;\
+                Factory.Action_popup.thread_kill = True
+                time.sleep(0.2)
+                Factory.AntivirusGUI.popup_open()
+            Image:
+                source:Factory.AntivirusGUI.pagination_pre
+                pos:self.parent.pos
+                size:self.parent.size
+                allow_stretch: True
+        DragOption:
+            size_hint:0,0
+            background_color:  0,0,0,0
+
+<Action_Buttons@HovBtn>:
+    size_hint_x:0.1
+    color: 1,1,1,1
+    background_normal:''
+    font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+    disabled: False if type(utils.GeneralMethods.Auth_table_dict['remaining_days']) == int else True
+    markup:True
+    on_release:
+        if True:\
+        self.parent.opacity = 0.5
+
+    canvas.after:
+        Color:
+            rgba: 0,0,0,1
+        Line:
+            width: 1
+            rectangle: self.x, self.y, self.width, self.height
+
+<Action_scrollview_Row>:
+    spacing:5
+    height: 30
+    id: Action_ROW
+    txt1: txtinpt1.text
+    txt2: txtinpt2.text
+    txt3: txtinpt3.text
+    path_text: root.txt1+'|'+root.txt2+'|'+root.txt3
+    size_hint_y:None
+    size_hint_x: 1
+    orientation:"horizontal"
+    markup:True
+    Action_textinput:
+        id: txtinpt1 
+        text:root.txt1
+        size_hint_x:0.05
+        halign: 'center'
+        valign: 'middle'
+        TooltipMDIconButton:
+            on_enter:
+                if not self._tooltip and utils.GeneralMethods.tooltip_status:\
+                Factory.Table.tooltip_data = Factory.Table.Action_Tooltip(root.path_text)
+            on_leave:''
+            size:self.parent.size
+            pos:self.parent.pos
+    
+    Action_textinput:
+        id: txtinpt3
+        text:root.txt3
+        size_hint_x:0.23 
+        TooltipMDIconButton:
+            on_enter:
+                if not self._tooltip and utils.GeneralMethods.tooltip_status:\
+                Factory.Table.tooltip_data = Factory.Table.Action_Tooltip(root.path_text)
+            on_leave:''
+            size:self.parent.size
+            pos:self.parent.pos
+       
+    Action_textinput:
+        id: txtinpt2
+        text:root.txt2
+        size_hint_x:0.25
+        color:245/255,12/255,12/255,255/255
+        halign: 'auto'
+        base_direction:'ltr'
+        TooltipMDIconButton:
+            on_enter:
+                if not self._tooltip and utils.GeneralMethods.tooltip_status:\
+                Factory.Table.tooltip_data = Factory.Table.Action_Tooltip(root.path_text)
+            on_leave:''
+            size:self.parent.size
+            pos:self.parent.pos
+
+    Action_Buttons:
+        text: 'Restore'
+        background_color:24/255,166/255,90/255,255/255
+        on_press:
+            if utils.GeneralMethods.tooltip_status:\
+            Factory.Table.Button_Handler(root.path_text,'Restore');\
+            Factory.Table.pop_element(root.path_text)
+
+        TooltipMDIconButton:
+            on_enter:
+                if not self._tooltip and utils.GeneralMethods.tooltip_status:\
+                Factory.Table.tooltip_data = Factory.Table.Action_Tooltip(root.path_text)
+                
+            on_leave:''
+            size:self.parent.size
+            pos:self.parent.pos
+            
+    Action_Buttons:
+        text: 'Delete'
+        background_color:226/255,100/255,86/255,255/255
+        on_press:
+            if utils.GeneralMethods.tooltip_status:\
+            Factory.Table.Button_Handler(root.path_text,'Delete');\
+            Factory.Table.pop_element(root.path_text)
+
+        TooltipMDIconButton:
+            on_enter:
+                if not self._tooltip and utils.GeneralMethods.tooltip_status:\
+                Factory.Table.tooltip_data = Factory.Table.Action_Tooltip(root.path_text)
+            on_leave:''
+            size:self.parent.size
+            pos:self.parent.pos
+            on_leave:''
+            size:self.parent.size
+            pos:self.parent.pos
+        
+    Action_Buttons:
+        text: 'Ignore'
+        background_color:255/255,127/255,40/255,255/255
+        on_press:
+            if True:\
+            Factory.Table.Button_Handler(root.path_text,'Ignore');\
+            Factory.Table.pop_element(root.path_text)
+            
+        TooltipMDIconButton:
+            on_enter: 
+                if not self._tooltip and utils.GeneralMethods.tooltip_status:\
+                Factory.Table.tooltip_data = Factory.Table.Action_Tooltip(root.path_text)
+            on_leave:''
+            size:self.parent.size
+            pos:self.parent.pos
+
+
+<TooltipMDIconButton@MDTooltip>:
+    tooltip_font_style:'H6'
+    font_name:Factory.AntivirusGUI.font_path+'Montserrat-Bold.ttf'
+
+<Scrollviewtooltip@TooltipMDIconButton>:
+    on_enter: 
+        if utils.GeneralMethods.tooltip_status:\
+        self.tooltip_text = Factory.Table.Action_Tooltip(root.path_text)
+    on_leave:''#Factory.Table.cursor_pointer()
+
+<Action_textinput@Label>:
+    color:0,0,0,1
+    canvas.before:
+        Color:
+            rgba: 1,1,1,1
+        Rectangle:
+            pos:self.pos
+            size:self.size
+    canvas.after:
+        Color:
+            rgba: 0,0,0,1
+        Line:
+            width: 1
+            rectangle: self.x, self.y, self.width, self.height
+
+    markup:True
+    readonly:True
+    font_size:self.height/2.5
+    font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+
+<Action_Popup_Label@Label>:
+    size_hint:0.1,0.1
+    font_size:self.height/3.3
+    font_name:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+
+<Scroll_View@ScrollView>:
+    bar_width: 8
+    size_hint_x:1
+    scroll_type: ['bars']
+    scroll_wheel_distance: 20
+    bar_inactive_color: .55, .55, .55, 1 
+    bar_color: 220/255,113/255,39/255,255/255
+    canvas.before:
+        Color:
+            rgba: 0.67,0.67,0.67,1
+        Rectangle:
+            size:self.size
+            pos:self.pos
+
+<MyTextInput@TextInput>
+
+<Update_popup@Popup>:
+
+    title:"New software update is available Do you want to update....!" if utils.GeneralMethods.Update_Status else '" Your software is up to date."'
+    separator_height: 0  
+    size_hint_x:0.32 if utils.GeneralMethods.Update_Status else 0.35
+    size_hint_y:0.2 if utils.GeneralMethods.Update_Status else 0.1
+    title_size: '14sp'
+    title_color:0,1,1,1#220/255,113/255,39/255,255/255
+    title_align:'center'
+    title_font:Factory.AntivirusGUI.font_path+'Montserrat-Medium.ttf'
+    background:Factory.AntivirusGUI.Grey
+    # opacity:0.7
+    canvas.after:
+        Color:
+            rgba: 220/255,113/255,39/255,255/255
+        Line:
+            width: 2.5
+            rectangle: self.x, self.y, self.width, self.height
+
+    on_open:
+        print(gc.collect())
+
+    on_dismiss:
+        self.clear_widgets()
+        self.remove_widget(self)
+    GridLayout:
+        cols:5
+        size_hint: 1,1
+        # orientation: 'horizontal'
+        Label:
+            text:''
+        Scan_SorNO_Button:
+            text:"[color=#33f3ef][b]Yes"
+            on_release:
+                time.sleep(0.3)
+                self.opacity = 1
+                root.dismiss()
+            source:Factory.AntivirusGUI.scanyes_IMG
+            on_press:
+                self.opacity = 0.5
+                utils.GeneralMethods.update_label_status = True
+            opacity: 1 if utils.GeneralMethods.Update_Status else 0
+            disabled:False if utils.GeneralMethods.Update_Status else True
+        Label:
+            text:''
+            width: 30
+            height: 30
+        Scan_SorNO_Button:
+            text:"[color=#33f3ef][b]No"
+            on_press:self.opacity = 0.5
+            on_release:
+                time.sleep(0.3)
+                self.opacity = 1
+                root.dismiss()
+                utils.GeneralMethods.popup_object_data.dismiss(force=True)
+                
+            source:Factory.AntivirusGUI.scanno_IMG
+            opacity: 1 if utils.GeneralMethods.Update_Status else 0
+            disabled:False if utils.GeneralMethods.Update_Status else True
+        Label:
+            text:''
+        DragOption:
+            size_hint:0,0
+            background_color:  0,0,0,0
+       
+
+<SButton>:
+    text:''
+    color:79/255,79/255,79/255,255/255
+    on_touch_down:
+        touch = args[1]
+        if self.collide_point(*touch.pos):\
+        self.opacity = 0.5
+        
+    on_touch_up:
+        touch = args[1]
+        if self.collide_point(*touch.pos):\
+        self.opacity = 1
+    Widget:
+        opacity:self.parent.opacity
+        canvas.before:
+            Color:
+                rgba:0,1,1,1
+            RoundedRectangle:
+                size:self.parent.size
+                pos:self.parent.x-(self.parent.width/32.43),self.parent.y - (self.parent.height/17.5)
+                radius: [(10, 10), (10, 10), (10, 10), (10, 10)]
+    Widget:
+        id:foreground
+        opacity:self.parent.opacity
+        canvas:
+            Color:
+                rgba:self.parent.color
+            RoundedRectangle:
+                size:self.parent.width - (self.parent.width/20.0),(self.parent.height - (self.parent.height/8.4))
+                pos:self.parent.pos
+                radius: [(8, 8), (8, 8), (8, 8), (8, 8)]
+
+    MDLabel:
+        pos:self.parent.x+(self.parent.width/7.2),self.parent.y-(self.parent.height/0.8)
+        text: self.parent.text
+        color: 1, 1, 1, 1  
+        font_name:Factory.AntivirusGUI.font_path+"Montserrat-Medium.ttf"
+        outline_color:0,1,1,1
+        font_size:self.parent.width/5.8
+        opacity:self.parent.opacity
+        outline_width:0.95

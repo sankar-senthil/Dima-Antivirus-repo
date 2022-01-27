@@ -1,0 +1,753 @@
+{
+   "settings": {
+      "empty": [
+         "download_icon_label"
+      ],
+      "enable": [
+         "action_rectangle",
+         "Action_popup_button",
+         "ActionMenu_Label",
+         "Quarantine_button",
+         "License_button",
+         "update_button",
+         "support_button",
+         "Settings_icon_label"
+      ],
+      "hide": [
+         "last_scan_value",
+         "last_scan_threat_value",
+         "activityarrow_forward",
+         "activityarrow_backward",
+         "last_activity_rectangle",
+         "license_rectangle",
+         "last_scan",
+         "last_scan_value",
+         "threat",
+         "threat_value",
+         "duration",
+         "duration_value",
+         "last_scanned_files",
+         "last_scanned_files_value",
+         "scan_lasted",
+         "scan_lasted_value",
+         "file_downloadicon_button"
+      ],
+      "hide_disable": [
+         "select_date_text",
+         "from_date_textinput",
+         "to_date_textinput",
+         "from_date_dropdown_btn",
+         "to_date_dropdown_btn",
+         "file_downloadicon_button",
+         "download_icon_label",
+         "history_rectangle",
+         "license_button",
+         "log_download_btn"
+      ]
+   },
+   "Browse_option_file": {
+      "enable": [
+         "file_box_tick"
+      ],
+      "hide": [
+         "folder_box_tick"
+      ]
+   },
+   "Browse_option_folder": {
+      "enable": [
+         "folder_box_tick"
+      ],
+      "hide": [
+         "file_box_tick"
+      ]
+   },
+   "DimaAV_App_Startup": {
+      "enable":[
+      "activityarrow_forward",
+         "activityarrow_backward"],
+      "Q_dis": [
+         "progress_dm",
+         "progress_value_dm",
+         "estimated_time_dm",
+         "estimated_time_value_dm",
+         "scanned_files_dm",
+         "scanned_files_value_dm",
+         "threats_dm",
+         "threats_value_dm",
+         "path_object_dm"
+      ],
+      "disable": [
+         "stop_custom_scan",
+         "stop_full_scan",
+         "file_downloadicon_button",
+         "progressbar_id_dm"
+      ],
+      "hide": [
+         "progress",
+         "progress_value",
+         "estimated_time",
+         "estimated_time_value",
+         "threats",
+         "threats_value",
+         "progressbar_id",
+         "path_object",
+         "history_rectangle",
+         "scanned_files",
+         "action_rectangle",
+         "license_rectangle",
+         "Delete_threat_text",
+         "Quarantine_threat_text",
+         "Quarantine_threat_image",
+         "Delete_threat_image",
+         "ActionMenu_Label",
+         "Settings_icon_label",
+         "update_msg",
+         "Quarantine_msg",
+         "Licence_key_msg",
+         "after_update_btn"
+      ],
+      "hide_disable": [
+         "select_date_text",
+         "from_date_textinput",
+         "to_date_textinput",
+         "from_date_dropdown_btn",
+         "to_date_dropdown_btn",
+         "file_downloadicon_button",
+         "download_icon_label",
+         "license_button",
+         "Action_popup_button",
+         "log_download_btn",
+         "Quarantine_button",
+         "License_button",
+         "update_button",
+         "support_button"
+      ]
+   },
+   "Last_activity": {
+      "empty": [
+         "download_icon_label"
+      ],
+      "enable": [
+         "last_scan_value",
+         "last_scan_threat_value",
+         "activityarrow_forward",
+         "activityarrow_backward",
+         "last_activity_rectangle",
+         "last_scan",
+         "last_scan_value",
+         "threat",
+         "threat_value",
+         "duration",
+         "duration_value",
+         "last_scanned_files",
+         "last_scanned_files_value",
+         "scan_lasted",
+         "scan_lasted_value"
+      ],
+      "hide": [
+         "action_rectangle",
+         "license_rectangle",
+         "Delete_threat_text",
+         "Quarantine_threat_text",
+         "Quarantine_threat_image",
+         "Delete_threat_image",
+         "ActionMenu_Label",
+         "Settings_icon_label",
+         "update_msg",
+         "Quarantine_msg",
+         "Licence_key_msg"
+      ],
+      "hide_disable": [
+         "select_date_text",
+         "from_date_textinput",
+         "to_date_textinput",
+         "log_download_btn",
+         "from_date_dropdown_btn",
+         "to_date_dropdown_btn",
+         "file_downloadicon_button",
+         "download_icon_label",
+         "history_rectangle",
+         "license_button",
+         "Action_popup_button",
+         "Quarantine_button",
+         "License_button",
+         "update_button",
+         "support_button"
+      ]
+   },
+   "Log_files": {
+      "disabled": [
+         "file_downloadicon_button"
+      ],
+      "enable": [
+         "select_date_text",
+         "from_date_textinput",
+         "to_date_textinput",
+         "from_date_dropdown_btn",
+         "to_date_dropdown_btn",
+         "file_downloadicon_button",
+         "download_icon_label",
+         "history_rectangle",
+         "log_download_btn"
+      ],
+      "hide_disable": [
+         "license_button",
+         "Action_popup_button",
+         "Quarantine_button",
+         "License_button",
+         "update_button",
+         "support_button",
+         "activityarrow_forward",
+         "activityarrow_backward"
+      ],
+      "hide": [
+         "last_scan_value",
+         "last_scan_threat_value",
+         "activityarrow_forward",
+         "activityarrow_backward",
+         "last_activity_rectangle",
+         "action_rectangle",
+         "last_scan",
+         "last_scan_value",
+         "threat",
+         "threat_value",
+         "duration",
+         "duration_value",
+         "last_scanned_files",
+         "last_scanned_files_value",
+         "scan_lasted",
+         "scan_lasted_value",
+         "license_rectangle",
+         "Delete_threat_text",
+         "Quarantine_threat_text",
+         "Quarantine_threat_image",
+         "Delete_threat_image",
+         "ActionMenu_Label",
+         "Settings_icon_label",
+         "update_msg",
+         "Quarantine_msg",
+         "Licence_key_msg"
+      ]
+   },
+   "custom_scan_complete": {
+      "disable": [
+         "stop_full_scan",
+         "stop_custom_scan"
+      ],
+      "enable": [
+         "start_custom_scan",
+         "Browse_btn",
+         "start_full_scan",
+         "start_custom_scan",
+         "browse_path_text",
+         "Browse_btn",
+         "check_box",
+         "check_box1",
+         "file_label",
+         "folder_label"
+      ],
+      "hide": [
+         "progress",
+         "progress_value",
+         "estimated_time",
+         "estimated_time_value",
+         "scanned_files",
+         "scanned_files_value",
+         "threats",
+         "threats_value",
+         "progressbar_id",
+         "path_object"
+      ]
+   },
+   "custom_scan_empty_exception": {
+      "disable": [
+         "stop_full_scan",
+         "stop_custom_scan"
+      ],
+      "enable": [
+         "start_custom_scan",
+         "Browse_btn",
+         "start_full_scan",
+         "browse_path_text",
+         "Browse_btn",
+         "check_box",
+         "check_box1",
+         "file_label",
+         "folder_label"
+      ]
+   },
+   "custom_scan_empty_string": {
+      "disable": [
+         "stop_full_scan",
+         "stop_custom_scan"
+      ],
+      "enable": [
+         "start_custom_scan",
+         "Browse_btn",
+         "start_full_scan",
+         "browse_path_text",
+         "Browse_btn",
+         "check_box",
+         "check_box1",
+         "file_label",
+         "folder_label"
+      ]
+   },
+   "custom_scan_startup": {
+      "Q_dis": [
+         "progress_dm",
+         "progress_value_dm",
+         "estimated_time_dm",
+         "estimated_time_value_dm",
+         "scanned_files_dm",
+         "scanned_files_value_dm",
+         "threats_dm",
+         "threats_value_dm",
+         "path_object_dm"
+      ],
+      "disable": [
+         "progressbar_id_dm",
+         "start_custom_scan",
+         "Browse_btn",
+         "start_full_scan"
+      ],
+      "enable": [
+         "stop_custom_scan",
+         "progress",
+         "progress_value",
+         "estimated_time",
+         "estimated_time_value",
+         "scanned_files",
+         "scanned_files_value",
+         "threats",
+         "threats_value",
+         "path_object"
+      ],
+      "hide": [
+         "browse_path_text",
+         "Browse_btn",
+         "file_box_tick",
+         "folder_box_tick",
+         "check_box",
+         "check_box1",
+         "file_label",
+         "folder_label"
+      ]
+   },
+   "custom_scan_stop": {
+      "disable": [
+         "stop_full_scan",
+         "stop_custom_scan"
+      ],
+      "enable": [
+         "start_custom_scan",
+         "Browse_btn",
+         "start_full_scan",
+         "browse_path_text",
+         "Browse_btn",
+         "check_box",
+         "check_box1",
+         "file_label",
+         "folder_label"
+      ],
+      "hide": [
+         "progress",
+         "progress_value",
+         "estimated_time",
+         "estimated_time_value",
+         "scanned_files",
+         "scanned_files_value",
+         "threats",
+         "threats_value",
+         "progressbar_id",
+         "path_object"
+      ]
+   },
+   "delete_action_threat": {},
+   "file_box_tick_hide": {
+      "hide": [
+         "file_box_tick"
+      ]
+   },
+   "folder_box_tick_hide": {
+      "hide": [
+         "folder_box_tick"
+      ]
+   },
+   "full_scan_complete": {
+      "disable": [
+         "stop_custom_scan",
+         "stop_full_scan"
+      ],
+      "enable": [
+         "start_full_scan",
+         "start_custom_scan",
+         "Browse_btn"
+      ]
+   },
+   "full_scan_exception": {
+      "disable": [
+         "stop_full_scan",
+         "stop_custom_scan"
+      ],
+      "enable": [
+         "start_full_scan",
+         "start_custom_scan",
+         "Browse_btn"
+      ]
+   },
+   "full_scan_startup": {
+      "Q_hid": [
+         "progress_dm",
+         "progress_value_dm",
+         "estimated_time_dm",
+         "estimated_time_value_dm",
+         "scanned_files_dm",
+         "scanned_files_value_dm",
+         "threats_dm",
+         "threats_value_dm",
+         "progressbar_id_dm",
+         "path_object_dm"
+      ],
+      "disable": [
+         "start_full_scan",
+         "start_custom_scan",
+         "Browse_btn"
+      ],
+      "enable": [
+         "stop_full_scan",
+         "progress",
+         "progress_value",
+         "estimated_time",
+         "estimated_time_value",
+         "scanned_files",
+         "scanned_files_value",
+         "threats",
+         "threats_value",
+         "path_object"
+      ]
+   },
+   "full_scan_stop": {
+      "disable": [
+         "stop_full_scan",
+         "stop_custom_scan"
+      ],
+      "enable": [
+         "start_full_scan",
+         "start_custom_scan",
+         "Browse_btn"
+      ]
+   },
+   "history_arrow_count_1": {
+      "enable": [
+         "activityarrow_forward",
+         "activityarrow_backward"
+      ]
+   },
+   "history_data_<1": {
+      "disabled": [
+         "activityarrow_forward"
+      ]
+   },
+   "history_data_>1": {
+      "enable": [
+         "activityarrow_backward"
+      ]
+   },
+   "history_data_equal": {
+      "disabled": [
+         "activityarrow_backward"
+      ]
+   },
+   "history_data_notequal": {
+      "enable": [
+         "activityarrow_forward"
+      ]
+   },
+   "quarantine_action_threat": {
+      "hide": [
+         "Delete_threat_tick"
+      ]
+   },
+   "stop_scan_dm_value": {
+      "Q_hid": [
+         "progress",
+         "progress_value",
+         "estimated_time",
+         "estimated_time_value",
+         "scanned_files",
+         "scanned_files_value",
+         "threats",
+         "threats_value",
+         "path_object"
+      ],
+      "enable": [
+         "progress_dm",
+         "progress_value_dm",
+         "estimated_time_dm",
+         "estimated_time_value_dm",
+         "scanned_files_dm",
+         "scanned_files_value_dm",
+         "threats_dm",
+         "threats_value_dm",
+         "path_object_dm"
+      ]
+   },
+ 
+
+   "license_verified": {
+      "enable": [
+         "start_full_scan",
+         "start_custom_scan",
+         "monitoring_button"
+      ],
+      "disable": [
+         "stop_full_scan",
+         "stop_custom_scan"
+      ]
+   },
+   "license_notverified": {
+      "disable": [
+         "start_full_scan",
+         "start_custom_scan",
+         "monitoring_button"
+      ]
+   },
+   "MSSQL_Table_Creation": [
+        
+      "CREATE TABLE auth(id INTEGER,computer_name TEXT,mac_address TEXT,serial_key Text,license TEXT,Installed_date TEXT,expiry_date TEXT,remaining_days INTEGER,status TEXT,last_verified TEXT,current_version TEXT ,Operating_System TEXT,Update_Status TEXT, last_Update TEXT, UR_Process TEXT,email TEXT, PRIMARY KEY( id autoincrement))",
+      "CREATE TABLE  User_Action  ( id integer, Date_Time TEXT, File_Name TEXT, Source_Path TEXT, Hash_ID TEXT, Action TEXT,unique(Source_Path) FOREIGN KEY( Hash_ID ) REFERENCES  Offline_Master ( id ),PRIMARY KEY( id  AUTOINCREMENT))",
+      "CREATE TABLE  Offline_Master  ( id integer, Date_Time TEXT, MD5_HASH TEXT  NOT NULL, SHA256_HASH TEXT  NOT NULL, Malicious TEXT, Threat_Name TEXT, Ignore_Action TEXT, unique(MD5_HASH),PRIMARY KEY( id  AUTOINCREMENT))",
+      "CREATE TABLE  Scan_History  ( id integer, Date_Time  TEXT, Scan_Type TEXT, Scan_Status TEXT, Scanned_Count TEXT, Threat_Count TEXT, Duration TEXT, Scan_Path TEXT, unique(Date_Time),PRIMARY KEY( id  AUTOINCREMENT))",
+      "CREATE TABLE  Status_Master  ( id integer, Browse_Option TEXT, Full_Scan TEXT, Custom_Scan TEXT, Real_Time_Protection TEXT, Threat_Action TEXT, Header_Msg TEXT, otp TEXT, otp_snt_time TEXT,Proxy_Status Test, PRIMARY KEY( id  AUTOINCREMENT))"
+   ],
+   "Auth_Fields": [
+      "id",
+      "computer_name",
+      "mac_address",
+      "serial_key",
+      "license",
+      "Installed_date",
+      "expiry_date",
+      "remaining_days",
+      "status",
+      "last_verified",
+      "Version",
+      "Oper_System", 
+      "Update_Status",
+      "last_Update",
+      "UR_Process"
+   ],
+   "Status_Master_Tabledata": [
+      "Folder",
+      "0",
+      "0",
+      "off",
+      "Quarantine",
+      "Without_Licence_ids"
+   ],
+
+   "ignorePatterns":[
+      ".tmp",
+      ".TMP",
+      ".tmp.",
+      ".TMP.",
+      ".log",
+      ".log.",
+      ".LOG",
+      ".LOG1",
+      ".LOG2",
+      ".dat.LOG2",
+      "-journal",
+      "journal.",
+      ".pf",
+      ".ttf",
+      ".pak",
+      ".py",
+      ".pyc",
+      ".c",
+      ".java",
+      ".php",
+      ".cs",
+      ".cpp",
+      ".class",
+      ".cgi",
+      ".pl",
+      ".h",
+      ".bak",
+      ".cab",
+      ".cfg",
+      ".cpl",
+      ".cur",
+      ".dll",
+      ".dmp",
+      ".drv",
+      ".lnk",
+      ".msi",
+      ".sys",
+      ".tmp",
+      ".etl",
+      "_Open_",
+      ".evtx",
+      ".kv",
+      ".git",
+      ".vscode",
+      ".kivy"
+
+   ],
+
+
+   "ignoreList":[
+      "C:/Program Files/",
+      "Windows/",
+      "$Windows/",
+      "C:/Windows/",
+      "Program Files (x86)/",
+      "C:/Program Files (x86)/",
+      "C:/Logs/",
+      "C:/PerfLogs/",
+      "PerfLogs/",
+      "ProgramData/",
+      "C:/ProgramData/",
+      "AMD",
+      "Intel",
+      "bootmgr",
+      "BOOTNXT",
+      "MSOCache",
+      "CYBERTRIAGE",
+      "cybertriage",
+      "Default",
+      "SystemLogs",
+      "LocalState",
+      "Google",
+      "System32",
+      "SystemApps",
+      "WindowsApps",
+      "_Open_",
+      "logs",
+      "Searches",
+      "ANTIVIRUS.db",
+      "AV_LEDGER.log",
+      "/Dima Antivirus/",
+      "Dell",
+      "Dima_Vault"
+   ],
+
+   "AV_Image_names": {
+      "AV_BG_IMG": "AV_MAIN_BG.png",
+      "startscan_btn_image": "startscan_btn_image.png",
+      "stopscan_btn_image": "stopscan_btn_image.png",
+      "complete_btn_image": "complete_btn_image.png",
+      "browse_btn_image": "browse_btn_image.png",
+      "download_btn_image": "download_btn_image.png",
+      "datepicker_drop_btn_image": "datepicker_drop_btn_image.png",
+      "filedownload_btn_image": "filedownload_btn_image.png",
+      "app_mini_icon": "app_mini_icon.png",
+      "app_maxi_icon": "app_maxi_icon.png",
+      "app_close_hide_icon": "app_close_hide_icon.png",
+      "checkbox_background": "checkbox_background.png",
+      "tick_mark": "tick_mark.png",
+      "pause_button": "pause_button.png",
+      "realtime_toggle_on": "realtime_toggle_on.png",
+      "realtime_toggle_off": "realtime_toggle_off.png",
+      "Progress_bar_back": "Progress_bar_back.png",
+      "Progress_bar_front": "Progress_bar_front.png",
+      "activity_arrow_backward": "activity_arrow_backward.png",
+      "activity_arrow_forward": "activity_arrow_forward.png",
+      "realtime_shield_on": "realtime_shield_on.png",
+      "realtime_shield_off": "realtime_shield_off.png",
+      "BRAND_ICON": "BRAND_ICON.png",
+      "PRODUCT_LOGO": "PRODUCT_LOGO.png",
+      "scanyes_IMG": "scan_yes.png",
+      "scanno_IMG": "scan_no.png",
+      "Lic_Cancel": "Lic_Cancel.png",
+      "Lic_Submit": "Lic_Submit.png",
+      "Restore_IMG": "restore.png",
+      "Delete_IMG": "delete.png",
+      "support_icon": "support_icon.png",
+      "quarantine_icon": "quarantine_icon.png",
+      "update_icon": "update_icon.png",
+      "Licence_icon": "Licence_icon.png",
+      "licence_exp": "licence_exp.png",
+      "update_msg_icon": "update_msg_icon.png",
+      "Grey": "grey.png",
+      "pagination_next": "pagination_next.png",
+      "pagination_pre": "pagination_pre.png",
+      "software_installer_icon":"software_installer_icon.png",
+      "IS_image":"IS_image.png",
+      "RT_image":"RT_image.png",
+      "file_open":"file_open.png"
+   },
+   "real_time_pro_off_ids": [
+      "self.ids['monitoring_button_off'].opacity = 1",
+      "self.ids['monitoring_button_on'].opacity = 0",
+      "self.ids['real_time_on_logo'].color = 1,1,1,0",
+      "self.ids['real_time_off_logo'].color = 1,1,1,1",
+      "self.ids['Licence_exp_logo'].color = 1,1,1,0",
+      "self.ids['real_time_caps'].text = 'Your Computer is Not Secure !'",
+      "self.ids['real_time_caps_small'].text ='Real Time Protection is off ... !'",
+      "self.ids['real_time_caps_small'].pos_hint = {'x':0.66,'y':0.79}",
+      "self.ids['real_time_caps'].pos_hint = {'x':0.72,'y':0.84}"
+   ],
+   "real_time_pro_on_ids": [
+      "self.ids['monitoring_button_off'].opacity = 0",
+      "self.ids['monitoring_button_on'].opacity = 1",
+      "self.ids['real_time_on_logo'].color = 1,1,1,1",
+      "self.ids['real_time_off_logo'].color = 1,1,1,0",
+      "self.ids['Licence_exp_logo'].color = 1,1,1,0",
+      "self.ids['real_time_caps'].text = 'Your Computer is Secure !'",
+      "self.ids['real_time_caps_small'].text ='Real Time Protection is on ... !'",
+      "self.ids['real_time_caps_small'].pos_hint = {'x':0.665,'y':0.79}",
+      "self.ids['real_time_caps'].pos_hint = {'x':0.7,'y':0.84}"
+   ],
+   "Without_Licence_ids": [
+      "self.ids['real_time_caps'].pos_hint = {'x':0.69,'y':0.84}",
+      "self.ids['real_time_caps_small'].pos_hint = {'x':0.65,'y':0.79}",
+      "self.ids['real_time_caps'].text = 'Enter Your License Key .....!'",
+      "self.ids['real_time_caps_small'].text ='Your Computer is not secure'",
+      "self.ids['real_time_off_logo'].color = 1,1,1,0",
+      "self.ids['real_time_on_logo'].color = 1,1,1,0",
+      "self.ids['Licence_exp_logo'].color = 1,1,1,1",
+      "self.ids['real_time_on_logo'].color = 1,1,1,0",
+      "self.ids['monitoring_button_off'].opacity = 1",
+      "self.ids['monitoring_button_on'].opacity = 0"
+   ],
+   "Zero_remain_days": [
+      "self.ids['real_time_caps'].pos_hint = {'x':0.7,'y':0.84}",
+      "self.ids['real_time_caps_small'].pos_hint = {'x':0.67,'y':0.79}",
+      "self.ids['real_time_caps'].text = 'Your License has Expired .....!'",
+      "self.ids['real_time_caps_small'].text ='Please Contact Our Support Team'",
+      "self.ids['Licence_exp_logo'].color = 1,1,1,1" 
+   ],
+   "duplicate_Licence_ids": [
+      "self.ids['real_time_caps_small'].pos_hint = {'x':0.67,'y':0.79}",
+      "self.ids['real_time_caps'].pos_hint = {'x':0.74,'y':0.84}",
+      "self.ids['real_time_caps'].text = 'Your License Key Already in Use .....!'",
+      "self.ids['real_time_caps_small'].text ='Please Contact Our Support Team'",
+      "self.ids['Licence_exp_logo'].color = 1,1,1,1"
+
+   ],
+   "full_scan_startup_ids": [
+      "self.ids['progress_value'].text,self.ids['path_object'].text, self.ids['scanned_files_value'].text, self.ids['estimated_time_value'].text, self.ids['threats_value'].text = f'[color=#08fcfc]Calculating..![/color]', '', f'[color=#08fcfc]Calculating..![/color]',f'[color=#08fcfc]Calculating..![/color]',f'[color=#08fcfc]Calculating..![/color]'",
+      "self.ids['progress_value'].pos_hint={'x':0.66 , 'y':0.64 }",
+      "self.ids['estimated_time_value'].pos_hint={'x':0.66 , 'y':0.6 }",
+      "self.ids['scanned_files_value'].pos_hint={'x':0.88,'y':0.64}",
+      "self.ids['threats_value'].pos_hint={'x':0.88,'y':0.6}",
+      "self.total_file_count, self.estimated_time, self.current_file_count, self.threat_count, self.ids['progressbar_id'].value, self.scan_file_list = 0,0,0,0,0,[]",
+      "self.ids['progressbar_id'].opacity=0.2"
+   ],
+   "custom_scan_startup_ids": [
+      "self.ids['progress_value'].text, self.ids['path_object'].text, self.ids['scanned_files_value'].text, self.ids['estimated_time_value'].text, self.ids['threats_value'].text = f'[color=#08fcfc]Calculating..![/color]', '', f'[color=#08fcfc]Calculating..![/color]',f'[color=#08fcfc]Calculating..![/color]',f'[color=#08fcfc]Calculating..![/color]'",
+      "self.ids['progress_value'].pos_hint={'x':0.66 , 'y':0.37 }",
+      "self.ids['estimated_time_value'].pos_hint={'x':0.66 , 'y':0.33}",
+      "self.ids['scanned_files_value'].pos_hint={'x':0.88,'y':0.37}",
+      "self.ids['threats_value'].pos_hint={'x':0.88,'y':0.33}",
+      "self.total_file_count, self.estimated_time, self.current_file_count, self.threat_count, self.ids['progressbar_id'].value, self.scan_file_list= 0, 0, 0, 0, 0, []",
+      "self.ids['progressbar_id'].opacity=0.2"
+   ],
+   "full_scan_empty_progressbar": [
+      "self.ids['progress_value'].text, self.ids['path_object'].text, self.ids['scanned_files_value'].text, self.ids['estimated_time_value'].text, self.ids['threats_value'].text = 'NA', '', 'NA','NA','NA'",
+      "self.ids['progress'].opacity, self.ids['path_object'].opacity, self.ids['scanned_files'].opacity, self.ids['estimated_time'].opacity, self.ids['threats'].opacity = 0.5, 0, 0.5, 0.5, 0.5",
+      "self.ids['progress_value'].opacity, self.ids['path_object'].opacity, self.ids['scanned_files_value'].opacity, self.ids['estimated_time_value'].opacity, self.ids['threats_value'].opacity = 0.5, 0, 0.5, 0.5, 0.5"
+   ]
+}

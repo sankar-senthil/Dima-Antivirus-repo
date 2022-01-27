@@ -1,0 +1,6 @@
+
+            os.remove(srcPath)
+            src_path = srcPath.replace('\\','/')
+            src_path = src_path.replace(src_path.split('/')[-1],'')
+            subprocess.run([f"attrib –h –r –s {src_path} /s /d"], shell=True)
+            print('src_path',src_path)
